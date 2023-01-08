@@ -20,7 +20,7 @@ To be written at the end of 2023...
 
 All results are visible as Jupyter Notebooks in the respective folders, if you are interested in the details. You can also find the overview below:
 
-<br>
+***
 
 ### Week 1: Predicting Olympic Athletes' weights
 
@@ -30,17 +30,14 @@ All results are visible as Jupyter Notebooks in the respective folders, if you a
 | **Goal**   | Predicting athlete weight with Elastic Net with `scikit-learn` (Python) and `tidymodels` (R) |
 | **Keywords**   | Supervised Learning, Elastic Net, K-Fold Cross Validation, Hyperparameter Tuning, Parallel Processing |
 | **Results**   | $R^2 \approx 74.6\%$ for `scikit-learn` and $R^2 \approx 73.5\%$ for `tidymodels`. Note that the differences are likely due to the splits and can be ignored. |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/Week%201%20-%20Olympic%20Athletes/OlympicsPython.ipynb), [R](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/Week%201%20-%20Olympic%20Athletes/OlympicsR.ipynb) |
 
 <p align="center">
   <img src="Week 1 - Olympic Athletes/python.png" height="300" />
   <img src="Week 1 - Olympic Athletes/r.png" height="300" />
 </p>
 
-<br>
-
 ***
-
-<br>
 
 ### Week 2: Coming up...
 
