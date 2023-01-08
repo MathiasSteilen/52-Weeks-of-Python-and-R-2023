@@ -25,7 +25,7 @@ All results are visible as Jupyter Notebooks in the respective folders, if you a
 ### Week 1: Predicting Olympic Athletes' weights
 
 |  | Description |
-| ----------- | ----------- |
+| :------ | :------ |
 | **Data Source**      | [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-27/readme.md)       |
 | **Goal**   | Predicting athlete weight with Elastic Net with `scikit-learn` (Python) and `tidymodels` (R) |
 | **Keywords**   | Supervised Learning, Elastic Net, K-Fold Cross Validation, Hyperparameter Tuning, Parallel Processing |
