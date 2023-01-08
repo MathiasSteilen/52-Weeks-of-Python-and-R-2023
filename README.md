@@ -1,7 +1,7 @@
 # 2023: 52 Weeks of Working with Data in  `Python` and `R`
 
 ## Content of this respository
-***
+
 This repo holds the contents of the challenge I set myself for 2023:
 
 > Finish one machine learning, data wrangling or data viz project each week of 2023 in both Python and R.
@@ -11,14 +11,12 @@ Given that both languages are complements nowadays, with R being strongest for d
 <br>
 
 ## Conclusion
-***
 
 To be written at the end of 2023...
 
 <br>
 
 ## Summary of Weekly Projects
-***
 
 All results are visible as Jupyter Notebooks in the respective folders, if you are interested in the details. You can also find the overview below:
 
@@ -26,7 +24,7 @@ All results are visible as Jupyter Notebooks in the respective folders, if you a
 
 ### Week 1: Predicting Olympic Athletes' weights
 
-| | |
+|  | Description |
 | ----------- | ----------- |
 | **Data Source**      | [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-27/readme.md)       |
 | **Goal**   | Predicting athlete weight with Elastic Net with `scikit-learn` (Python) and `tidymodels` (R) |
