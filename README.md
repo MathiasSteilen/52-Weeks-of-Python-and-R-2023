@@ -1,6 +1,6 @@
 # 2023: 52 Weeks of Working with Data in  `Python` and `R`
 
-## Content of this respository
+## Content of this repository
 
 This repo holds the contents of the challenge I set myself for 2023:
 
