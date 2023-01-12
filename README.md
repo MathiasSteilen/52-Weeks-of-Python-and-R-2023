@@ -44,7 +44,7 @@ All results are visible as Jupyter Notebooks in the respective folders, if you a
 | | Description |
 | :----------- | :----------- |
 | **Data Source** | [Kaggle](https://www.kaggle.com/datasets/mattop/new-york-city-bus-breakdown-and-delays) |
-| **Goal** | Wrangling a medium sized (>500K observations) dataset to understand more about the data and make visualisations |
+| **Goal** | Wrangling the medium sized (>500K observations) dataset on schoolbus breakdowns in NYC to understand more about the data and make visualisations about potential time trends |
 | **Keywords** | Data Wrangling, Data Visualisation, `Pandas`, `Tidyverse`, `ggplot2`, `seaborn`, `matplotlib` |
 | **Results** | `ggplot2` and the `Tidyverse` are a godsend for data wrangling and visualisation, however the combination of `Pandas` and `seaborn` also gets the job done very well, once you get used to the different way of thinking. Also: Manhattan's school bus delays are getting worse.|
 | **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/Week%202%20-%20Bus%20Breakdowns%20NYC/BusesPython.ipynb), [R](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/Week%202%20-%20Bus%20Breakdowns%20NYC/BusesR.ipynb) |
