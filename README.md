@@ -68,7 +68,7 @@ All results are visible as Jupyter Notebooks in the respective folders, if you a
 
 <p align="center">
   <img src="03 - Boosting Methods/python.png" height="250" />
-  <img src="03 - Boosting Methods/r.png" height="250" />
+  <img src="03 - Boosting Methods/R.png" height="250" />
   <img src="03 - Boosting Methods/ridges.png" height="250" />
 </p>
 
