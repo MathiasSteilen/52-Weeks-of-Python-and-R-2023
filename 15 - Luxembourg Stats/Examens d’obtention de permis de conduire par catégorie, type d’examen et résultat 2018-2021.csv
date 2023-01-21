@@ -1,0 +1,98 @@
+Categorie,Type_Examen,Resultat,Nombre
+A,Examen contrôle pratique,S - Réussi,4
+A,Examen contrôle théorie,F - Raté,1
+A,Examen contrôle théorie,S - Réussi,3
+A1,Examen contrôle pratique,S - Réussi,1
+A1,Examen pratique,N - Interrompu,2
+A1,Examen pratique,R - Candidat refusé,3
+A1,Examen pratique,F - Raté,62
+A1,Examen pratique,S - Réussi,190
+A1,Examen théorique,R - Candidat refusé,3
+A1,Examen théorique,A - Candidat ne s'est pas présenté,13
+A1,Examen théorique,F - Raté,74
+A1,Examen théorique,S - Réussi,218
+A2,Examen contrôle pratique,S - Réussi,1
+A2,Examen contrôle théorie,S - Réussi,1
+A2,Examen pratique,N - Interrompu,3
+A2,Examen pratique,C - Annulé,3
+A2,Examen pratique,R - Candidat refusé,4
+A2,Examen pratique,F - Raté,118
+A2,Examen pratique,S - Réussi,896
+A2,Examen théorique,R - Candidat refusé,12
+A2,Examen théorique,A - Candidat ne s'est pas présenté,35
+A2,Examen théorique,F - Raté,170
+A2,Examen théorique,S - Réussi,1012
+AM,Examen théorique,R - Candidat refusé,1
+AM,Examen théorique,A - Candidat ne s'est pas présenté,6
+AM,Examen théorique,F - Raté,42
+AM,Examen théorique,S - Réussi,104
+B,Examen contrôle pratique,R - Candidat refusé,9
+B,Examen contrôle pratique,S - Réussi,294
+B,Examen contrôle pratique,F - Raté,382
+B,Examen contrôle théorie,R - Candidat refusé,2
+B,Examen contrôle théorie,A - Candidat ne s'est pas présenté,13
+B,Examen contrôle théorie,F - Raté,57
+B,Examen contrôle théorie,S - Réussi,165
+B,Examen pratique,A - Candidat ne s'est pas présenté,1
+B,Examen pratique,N - Interrompu,6
+B,Examen pratique,C - Annulé,8
+B,Examen pratique,R - Candidat refusé,74
+B,Examen pratique,S - Réussi,6881
+B,Examen pratique,F - Raté,7177
+B,Examen théorique,R - Candidat refusé,193
+B,Examen théorique,A - Candidat ne s'est pas présenté,325
+B,Examen théorique,F - Raté,2214
+B,Examen théorique,S - Réussi,7073
+BE,Examen contrôle pratique,S - Réussi,1
+BE,Examen pratique,C - Annulé,1
+BE,Examen pratique,R - Candidat refusé,2
+BE,Examen pratique,F - Raté,93
+BE,Examen pratique,S - Réussi,590
+C,Examen contrôle pratique,R - Candidat refusé,1
+C,Examen contrôle pratique,F - Raté,20
+C,Examen contrôle pratique,S - Réussi,28
+C,Examen contrôle théorie,R - Candidat refusé,2
+C,Examen contrôle théorie,A - Candidat ne s'est pas présenté,2
+C,Examen contrôle théorie,S - Réussi,10
+C,Examen contrôle théorie,F - Raté,19
+C,Examen pratique,R - Candidat refusé,1
+C,Examen pratique,F - Raté,116
+C,Examen pratique,S - Réussi,542
+C,Examen théorique,R - Candidat refusé,19
+C,Examen théorique,A - Candidat ne s'est pas présenté,33
+C,Examen théorique,F - Raté,246
+C,Examen théorique,S - Réussi,538
+C1,Examen contrôle pratique,S - Réussi,2
+C1,Examen pratique,F - Raté,4
+C1,Examen pratique,S - Réussi,97
+C1,Examen théorique,F - Raté,1
+C1,Examen théorique,R - Candidat refusé,2
+C1,Examen théorique,S - Réussi,94
+C1E,Examen pratique,S - Réussi,8
+CE,Examen contrôle pratique,F - Raté,5
+CE,Examen contrôle pratique,S - Réussi,8
+CE,Examen pratique,F - Raté,39
+CE,Examen pratique,S - Réussi,276
+D,Examen contrôle pratique,F - Raté,4
+D,Examen contrôle pratique,S - Réussi,6
+D,Examen contrôle théorie,S - Réussi,2
+D,Examen contrôle théorie,F - Raté,2
+D,Examen pratique,R - Candidat refusé,1
+D,Examen pratique,N - Interrompu,1
+D,Examen pratique,F - Raté,140
+D,Examen pratique,S - Réussi,349
+D,Examen théorique,R - Candidat refusé,12
+D,Examen théorique,A - Candidat ne s'est pas présenté,32
+D,Examen théorique,F - Raté,267
+D,Examen théorique,S - Réussi,365
+D1E,Examen pratique,S - Réussi,1
+DE,Examen pratique,F - Raté,6
+DE,Examen pratique,S - Réussi,9
+F,Examen pratique,A - Candidat ne s'est pas présenté,4
+F,Examen pratique,F - Raté,9
+F,Examen pratique,R - Candidat refusé,12
+F,Examen pratique,S - Réussi,112
+F,Examen théorique,A - Candidat ne s'est pas présenté,1
+F,Examen théorique,R - Candidat refusé,4
+F,Examen théorique,F - Raté,38
+F,Examen théorique,S - Réussi,104

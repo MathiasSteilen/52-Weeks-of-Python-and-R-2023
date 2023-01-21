@@ -60,8 +60,8 @@ All results are visible as Jupyter Notebooks in the respective folders, if you a
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | [Kaggle](https://www.kaggle.com/datasets/thedevastator/prediction-of-insurance-charges-using-age-gender?datasetId=2792769&sortBy=dateRun&tab=profile) |
+| **Goal** | Compare the performance of two gradient boosting methods (`LightGBM` and `XGBoost`) on insurance data, namely charges in USD for each individual based on predictors such as age, region or smoker. Implementation in `sklearn` (Python) and `tidymodels` (R). |
+| **Keywords** | Supervised Learning, Gradient Boosting, LightGBM, XGBoost, K-Fold Cross Validation, Randomised Grid Search, Hyperparameter Tuning |
+| **Results** | Tuning times in Python's `sklearn` are significantly faster than in `tidymodels`, however ease of use for preprocessing is much better. For large projects, initial prototype models could be made in R, then shift to Python, once the proof-of-concept stands? |
+| **Notebooks** | [Python](), [R]() |
