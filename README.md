@@ -18,8 +18,6 @@ To be written at the end of 2023...
 
 ## Summary of Weekly Projects
 
-All results are visible as Jupyter Notebooks in the respective folders, if you are interested in the details. You can also find the overview below:
-
 ***
 
 ### Week 1: Predicting Olympic Athletes' weights 🏅🤸
