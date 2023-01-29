@@ -72,15 +72,20 @@ To be written at the end of 2023...
 
 ***
 
-### Week 4: Coming up...
+### Week 4: Predicting Concrete Compressive Strength 👷🏗️
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | [Kaggle](https://www.kaggle.com/datasets/sinamhd9/concrete-comprehensive-strength) |
+| **Goal** | Predict the compressive strength of concrete in megapascals from its separate components (Regression Setting). |
+| **Keywords** | Supervised Learning, `Random Forest`, `Elastic Net`, Randomised Grid Search, K-Fold Cross Validation, Hyperparameter Tuning, Model Evaluation Metrics |
+| **Results** | The improvement of the regularised regression (elastic net) was negligible over OLS. The performance of the tuned random forest was most impressive with $R^2 \approx 0.9$ and $\text{MAPE} \approx 0.13$.   |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/04%20-%20Concrete%20Strength/ConcretePython.ipynb) |
+
+<p align="center">
+  <img src="04 - Concrete Strength/python.png" width="500" />
+  <img src="04 - Concrete Strength/predictions.png" width="500" />
+</p>
 
 ***
 
