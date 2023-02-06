@@ -89,15 +89,20 @@ To be written at the end of 2023...
 
 ***
 
-### Week 5: Coming up...
+### Week 5: Scraping Belgian Rent Prices 🏠💶🇧🇪
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | Website of a major Belgian real estate platform |
+| **Goal** | Scrape rent prices for all of Brussels from the website using the dynamic web scraping library `Selenium` and make it available for download. In a later week, train a model that uses tokenisation on the descriptions for price predictions. |
+| **Keywords** | Dynamic Web Scraping, `HTML`,  `Selenium`, `RSelenium`, Data Cleaning |
+| **Results** | The scraped data set encompasses 3,477 listings and has 109 columns. It is available for download on [Kaggle](https://www.kaggle.com/datasets/mathiassteilen/monthly-rent-of-rented-flats-in-brussels). |
+| **Notebooks** | [R Script]() |
+
+<p align="center">
+  <img src="05 - Brussels Rent Prices/Kaggle Picture.png" width="500" />
+</p>
+
 
 ***
 
