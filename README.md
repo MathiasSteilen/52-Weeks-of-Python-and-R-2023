@@ -106,19 +106,24 @@ To be written at the end of 2023...
 
 ***
 
-### Week 6: Coming up...
+### Week 6: Luxury Watches ⌚💸
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | [chrono24.at](https://www.chrono24.at/) |
+| **Goal** | Filtering down for some specific brands, I want to scrape the information off of each watch listing (N = 45,000) pertaining to price, brand, colour, age and so forth. With the data, I can then create visualisations and train a model to create valuations for new watches. |
+| **Keywords** | Web Scraping, `HTML`,  `Selenium`, `RSelenium`, `rvest`, Data Cleaning |
+| **Results** | The watch prices are much harder to predict than rental prices due to the sparsity of the data on some brands. Brand and model are much more important than exterior factors, so the performance is not impressive. Additionally, omitted variables play a factor, for instance rarity or collector edition tags. |
+| **Notebooks** | [Python](), [R]() |
+
+<p align="center">
+  <img src="06 - Luxury Watches/python.png" width="250" />
+  <img src="06 - Luxury Watches/r.png" width="500" />
+</p>
 
 ***
 
-### Week 7: Coming up...
+### Week 7: New York Open Data
 
 | | Description |
 | :----------- | :----------- |
