@@ -50,6 +50,8 @@ data %>%
         plot.margin = margin(0.5, 0.5, 0.5, 0.5, unit = "cm"),
         panel.grid.minor.y = element_blank())
 
+ggsave(filename = "r.png", dpi = 300, width = 6, height = 4)
+
 # Preisverteilung von Modellen
 plot_models <- function(tbl, brand){
   

@@ -1,0 +1,74 @@
+---
+title: "NYC-R"
+author: "Mathias Steilen"
+date: "2023-02-26"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Libraries
+library(tidyverse)
+library(tidytext)
+library(lubridate)
+library(broom)
+library(scales)
+
+# Working Directory To Source File Location
+setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
+
+# Chart Theme
+theme_set(theme_bw() +
+            theme(plot.title = element_text(size = 14, face = "bold"),
+                  plot.subtitle = element_text(size = 10, face = "italic",
+                                               colour = "grey50")))
+```
+
+# Analysing NYC Open Data 🗽🌇
+
+First step, as always, import the necessary packages:
+
+```{r}
+data <- read_csv("C:/Users/mathi/Downloads/NYC Arrests/NYPD_Arrests_Data__Historic_.csv") %>% 
+  mutate(ARREST_DATE = lubridate::mdy(ARREST_DATE))
+```
+
+```{r}
+data %>% 
+  filter(between(Latitude, 40.5, 41) & 
+           between(Longitude, -74.2, -73.7)) %>% 
+  filter(PERP_RACE != "OTHER") %>% 
+  select(OFNS_DESC, PERP_RACE, Latitude, Longitude) %>% 
+  ggplot(aes(x = Longitude, y = Latitude)) +
+  geom_point(aes(colour = PERP_RACE), alpha = 0.2, size = 0.75) +
+  labs(title = "Arrests in NYC since 2006") +
+  coord_map() +
+  guides(colour = guide_legend(override.aes = list(alpha = 1)))
+```
+
+```{r}
+data %>% 
+  filter(OFNS_DESC %in% c(
+    "DANGEROUS DRUGS",
+    "DANGEROUS WEAPONS",
+    "ROBBERY",
+    "INTOXICATED & IMPAIRED DRIVING",
+    "SEX CRIMES",
+    "DISORDERLY CONDUCT"
+  )) %>% 
+  filter(!PERP_RACE %in% c("OTHER", "UNKNOWN")) %>% 
+  mutate(year = lubridate::year(ARREST_DATE)) %>% 
+  count(year, OFNS_DESC, PERP_RACE) %>% 
+  group_by(year, OFNS_DESC) %>% 
+  mutate(n = n/sum(n)) %>% 
+  ggplot(aes(x = year, y = n, colour = PERP_RACE)) +
+  geom_line() +
+  facet_wrap(~ OFNS_DESC, scales = "free") +
+  labs(title = "Arrests in NYC from 2006 to 2022",
+       subtitle = "As percentage of all arrests for given crime in a year.") +
+  scale_y_continuous(labels = percent_format())
+```
+

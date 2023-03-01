@@ -114,7 +114,7 @@ To be written at the end of 2023...
 | **Goal** | Filtering down for some specific brands, I want to scrape the information off of each watch listing (N = 45,000) pertaining to price, brand, colour, age and so forth. With the data, I can then create visualisations and train a model to create valuations for new watches. |
 | **Keywords** | Web Scraping, `HTML`,  `Selenium`, `RSelenium`, `rvest`, Data Cleaning |
 | **Results** | The watch prices are much harder to predict than rental prices due to the sparsity of the data on some brands. Brand and model are much more important than exterior factors, so the performance is not impressive. Additionally, omitted variables play a factor, for instance rarity or collector edition tags. |
-| **Notebooks** | [Python](), [R]() |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/06%20-%20Luxury%20Watches/Watches-Python.ipynb), [R](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/06%20-%20Luxury%20Watches/Selenium%20%2B%20Cleaning.R) |
 
 <p align="center">
   <img src="06 - Luxury Watches/python.png" width="250" />
@@ -123,15 +123,21 @@ To be written at the end of 2023...
 
 ***
 
-### Week 7: New York Open Data
+### Week 7: New York City Open Data 🗽🌇
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
+| **Data Source** | [NYC Open Data](https://opendata.cityofnewyork.us/) |
+| **Goal** | The NYC Open Data platform holds almost endless amounts of free data. I am especially interested in `All Arrests in NYC since 2006`, `Citywide Payroll Data`, `Causes of Death`, `Restaurant Violations` and `Dog Registrations`. |
+| **Keywords** | `pandas`, `ggplot2`, `tidyverse`, `Data Wrangling`, `Data Visualisation`, `Exploratory Data Analysis` |
+| **Results** | Some useless fun facts, like that some dogs were named Mozzarella in 1994 and then less fun facts like that firemen in NYC pull the most overtime of all agencies.  |
 | **Notebooks** | TBD |
+
+<p align="center">
+  <img src="07 - New York Open Data/r.png" width="500" />
+  <img src="07 - New York Open Data/python.png" width="500" />
+  <img src="07 - New York Open Data/python2.png" width="500" />
+</p>
 
 ***
 
