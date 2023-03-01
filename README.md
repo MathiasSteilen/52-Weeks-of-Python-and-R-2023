@@ -131,7 +131,7 @@ To be written at the end of 2023...
 | **Goal** | The NYC Open Data platform holds almost endless amounts of free data. I am especially interested in `All Arrests in NYC since 2006`, `Citywide Payroll Data`, `Causes of Death`, `Restaurant Violations` and `Dog Registrations`. |
 | **Keywords** | `pandas`, `ggplot2`, `tidyverse`, `Data Wrangling`, `Data Visualisation`, `Exploratory Data Analysis` |
 | **Results** | Some useless fun facts, like that some dogs were named Mozzarella in 1994 and then less fun facts like that firemen in NYC pull the most overtime of all agencies.  |
-| **Notebooks** | TBD |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/07%20-%20New%20York%20Open%20Data/NYC-Python.ipynb), [R](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/07%20-%20New%20York%20Open%20Data/NYC-R.ipynb) |
 
 <p align="center">
   <img src="07 - New York Open Data/r.png" width="500" />
