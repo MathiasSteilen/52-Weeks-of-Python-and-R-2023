@@ -141,15 +141,22 @@ To be written at the end of 2023...
 
 ***
 
-### Week 8: Coming up...
+### Week 8: Using Tokenisation on Rental Listing Titles to Improve Predictions 📜🗣️
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | [willhaben.at](https://www.willhaben.at) (Scraped >7,000 rental listings before modelling) |
+| **Goal** | First, I want to train a LGBM (boosted trees) model on the monthly rent data in Vienna (predictors: size of apartment, postcode, landlord, number of rooms). Then, I want to use a natural-language-processing approach, namely tokenisation, on the free text titles (Example: 'Provisionsfreie 2-Zimmer-Wohnung mit ca. 10 m² Terrasse') of the listings to see if the model performance can be improved with the additional information. |
+| **Keywords** | `NLP`, `Tokenization`, `Supervised Learning`, `Gradient Boosting`, `LightGBM`, `XGBoost`, `K-Fold Cross Validation`, `Randomised Grid Search`, `Hyperparameter Tuning` |
+| **Results** | The prediction performance got 4 ppts better $R^2$ (64% -> 68%) and 16 EUR/month less absolut error on average. The CountVectoriser makes it ridiculously easy to apply tokenisation, to the point where I'd even give the `sklearn` approach more credit than the `tidymodels` one. All in all, tokenisation improved the performance of this model significantly and can therefore be recommended in cases like this. |
+| **Notebooks** | [Python](), [R]() |
+
+<p align="center">
+  <img src="08 - Tokenisation/python.png" width="300" />
+  <img src="08 - Tokenisation/R.png" width="300" />
+  <img src="08 - Tokenisation/python1.png" width="300" />
+  <img src="08 - Tokenisation/python2.png" width="300" />
+</p>
 
 ***
 
