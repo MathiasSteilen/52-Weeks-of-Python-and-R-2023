@@ -160,15 +160,21 @@ To be written at the end of 2023...
 
 ***
 
-### Week 9: Coming up...
+### Week 9: Day-Ahead Electricity Prices (Time Series Forecasting) 📈⚡🔮
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | [ENTSO-E Transparency Platform](https://transparency.entsoe.eu/dashboard/show) (Scraped using `Selenium`) |
+| **Goal** | This week, I want to try to use two different supervised ML methods on time series data, specifically on Day-Ahead Electricity Prices. The goal is to predict the prices of the day ahead. Then, I want to demonstrate the importance of retraining models frequently by investigating if retraining increases predictive performance. |
+| **Keywords** | `Retraining`, `Time Series Forecasting`, `Autocorrelation`, `Supervised Learning`, `Random Forest`, `Elastic Net` |
+| **Results** | The random forest model benefitted a lot from retraining! Generally, elastic net seems to stick more strongly to the autocorrelation component than the random forest does. The retrained random forest seems to be the best solution, but I'm sure that this model can be expaned further (more variables, more data, longer lookback than 3 years). As the point of this week was only to show the benefit of retraining, I won't dive deeper into increasing model performance and conclude with the images shown. |
+| **Notebooks** | [Python](), [R]() |
+
+<p align="center">
+  <img src="09 - Time Series and Retraining/electricity prices.png" width="500" />
+  <img src="09 - Time Series and Retraining/RF_retraining_time series.png" width="500" />
+  <img src="09 - Time Series and Retraining/Preds_v_Actuals.png" width="300" />
+</p>
 
 ***
 
