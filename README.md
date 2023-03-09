@@ -168,7 +168,7 @@ To be written at the end of 2023...
 | **Goal** | This week, I want to try to use two different supervised ML methods on time series data, specifically on Day-Ahead Electricity Prices. The goal is to predict the prices of the day ahead. Then, I want to demonstrate the importance of retraining models frequently by investigating if retraining increases predictive performance. |
 | **Keywords** | `Retraining`, `Time Series Forecasting`, `Autocorrelation`, `Supervised Learning`, `Random Forest`, `Elastic Net` |
 | **Results** | The random forest model benefitted a lot from retraining! Generally, elastic net seems to stick more strongly to the autocorrelation component than the random forest does. The retrained random forest seems to be the best solution, but I'm sure that this model can be expaned further (more variables, more data, longer lookback than 3 years). As the point of this week was only to show the benefit of retraining, I won't dive deeper into increasing model performance and conclude with the images shown. |
-| **Notebooks** | [Python](), [R]() |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/09%20-%20Time%20Series%20and%20Retraining/Python.ipynb), [R](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/09%20-%20Time%20Series%20and%20Retraining/R.ipynb) |
 
 <p align="center">
   <img src="09 - Time Series and Retraining/electricity prices.png" width="500" />
