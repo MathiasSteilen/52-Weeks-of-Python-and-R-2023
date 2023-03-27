@@ -1,0 +1,266 @@
+---
+title: "Predicting Sleep"
+author: "Mathias Steilen"
+date: "2023-03-20"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+# Libraries
+library(tidyverse)
+library(tidytext)
+library(lubridate)
+library(broom)
+library(scales)
+
+library(tidymodels)
+
+# Working Directory To Source File Location
+setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
+
+# Chart Theme
+theme_set(theme_bw() +
+            theme(plot.title = element_text(size = 14, face = "bold"),
+                  plot.subtitle = element_text(size = 10, face = "italic",
+                                               colour = "grey50")))
+```
+
+
+```{r}
+# Loading Data
+train <- read_csv("C:/Users/mathi/Downloads/Rob Mulla Kaggle Comp/train_prepped.csv")
+test <- read_csv("C:/Users/mathi/Downloads/Rob Mulla Kaggle Comp/test_prepped.csv")
+train_detailed <- read_csv("C:/Users/mathi/Downloads/Rob Mulla Kaggle Comp/train_detailed.csv")
+sample_submission <- read_csv("C:/Users/mathi/Downloads/Rob Mulla Kaggle Comp/sample_submission.csv")
+```
+
+Just try a simple submission without the XML and using a really simple model.
+
+Conclusion: Doesn't work
+
+
+```{r}
+prep_dataset <- function(tbl){
+  
+  tbl <- tbl %>% 
+    mutate(
+      year = year(date),
+      month = month(date),
+      dow = wday(date, week_start = 1),
+      hour = hour(date),
+      month = lubridate::month(date),
+      year_half = lubridate::semester(date) %>% as.factor,
+      week_day = lubridate::wday(date),
+      week_in_year = lubridate::week(date),
+      quarter = lubridate::quarter(date),
+      doy = lubridate::yday(date),
+      dom = lubridate::mday(date),
+      date_christmas = ifelse(between(doy, 358, 366), 1, 0)
+    )
+  
+  # add lags
+  for (i in 1:14){
+    var_name <- paste0("sleep_lag", i)
+    tbl[,var_name] <- lag(tbl$sleep_hours, i)
+  }
+  
+  return(tbl)
+}
+```
+
+
+```{r}
+train <- train %>% 
+  prep_dataset()
+
+test <- test %>% 
+  prep_dataset()
+```
+
+A lot of missing values in the prepped one.
+
+```{r}
+colMeans(is.na(train)) %>%
+  enframe() %>%
+  arrange(-value) %>%
+  filter(value > 0)
+```
+
+***
+### EDA
+***
+
+Autocorrelation?
+
+```{r}
+train %>% 
+  mutate(sleep_yesterday = lag(sleep_hours)) %>% 
+  ggplot(aes(sleep_yesterday, sleep_hours)) +
+  geom_point(alpha = 0.2) +
+  geom_smooth(method = "lm", se = F) +
+  labs(
+    title = "Is there autocorrelation?"
+  )
+```
+
+```{r}
+train$date %>% summary()
+```
+
+```{r}
+train %>% 
+  ggplot(aes(year, sleep_hours, group = year)) +
+  geom_boxplot() +
+  scale_x_continuous(breaks = 2015:2021) +
+  labs(title = "Sleep time by year")
+```
+
+***
+### Training a model
+***
+
+```{r}
+dt_train <- train %>% 
+  filter(year < 2021) %>% 
+  filter(!year %in% c(2017, 2018))
+
+dt_test <- train %>% 
+  filter(year >= 2021)
+
+dt_train$date %>% min() %>% print()
+dt_train$date %>% max() %>% print()
+dt_test$date %>% min() %>% print()
+dt_test$date %>% max() %>% print()
+```
+
+```{r}
+rf_rec <- recipe(sleep_hours ~ ., data = dt_train) %>%
+  step_date(date) %>% 
+  step_holiday(date, holidays = timeDate::listHolidays("US")) %>%
+  step_impute_mean(all_numeric_predictors()) %>% 
+  step_impute_mode(all_nominal_predictors()) %>% 
+  step_zv(all_predictors()) %>% 
+  step_rm(date)
+
+rf_rec %>% prep() %>% juice() %>% glimpse()
+rf_rec %>% prep() %>% bake(dt_test) %>% glimpse()
+
+colMeans(is.na(rf_rec %>% prep() %>% bake(dt_test))) %>% 
+  enframe() %>% 
+  arrange(-value) %>% 
+  filter(value > 0)
+```
+
+
+```{r}
+en_rec <- recipe(sleep_hours ~ ., data = dt_train) %>%
+  step_date(date) %>% 
+  step_holiday(date, holidays = timeDate::listHolidays("CH")) %>%
+  step_rm(date) %>% 
+  step_impute_mean(all_numeric_predictors()) %>% 
+  step_impute_mode(all_nominal_predictors()) %>% 
+  step_zv(all_predictors()) %>% 
+  step_normalize(all_numeric_predictors()) %>% 
+  step_dummy(all_nominal_predictors())
+
+en_rec %>% prep() %>% juice() %>% glimpse()
+en_rec %>% prep() %>% bake(dt_test) %>% glimpse()
+
+colMeans(is.na(en_rec %>% prep() %>% bake(dt_test))) %>% 
+  enframe() %>% 
+  arrange(-value) %>% 
+  filter(value > 0)
+```
+
+```{r}
+rf_fit <- workflow() %>% 
+  add_recipe(rf_rec) %>% 
+  add_model(rand_forest() %>% 
+              set_mode("regression") %>% 
+              set_engine("ranger", importance = "permutation")) %>% 
+  fit(dt_train)
+
+en_fit <- workflow() %>% 
+  add_recipe(en_rec) %>% 
+  add_model(linear_reg(mixture = 0.5, penalty = 0.02) %>% 
+              set_mode("regression") %>% 
+              set_engine("glmnet", importance = "permutation")) %>% 
+  fit(dt_train)
+```
+
+```{r}
+
+bind_rows(
+  rf_fit %>%
+    augment(dt_test) %>%
+    transmute(sleep_hours, .pred, model = "RF"),
+  en_fit %>%
+    augment(dt_test) %>%
+    transmute(sleep_hours, .pred, model = "EN")
+) %>%
+  ggplot(aes(sleep_hours, .pred)) +
+  geom_point(alpha = 0.2, colour = "midnightblue") +
+  labs(
+    title = "Predictions vs. Actuals",
+    y = "Predictions", x = "Actuals"
+  ) +
+  geom_abline(colour = "firebrick", lty = "dashed") +
+  facet_wrap(~model)
+```
+
+```{r}
+eval_metrics <- metric_set(rsq, mae, rmse)
+
+bind_rows(
+  rf_fit %>%
+    augment(dt_test) %>%
+    transmute(sleep_hours, .pred, model = "RF"),
+  en_fit %>%
+    augment(dt_test) %>%
+    transmute(sleep_hours, .pred, model = "EN"),
+  # Baseline (predicting average from training)
+  dt_test %>% 
+    transmute(sleep_hours, .pred = mean(dt_train$sleep_hours), 
+              model = "Baseline")
+) %>%
+  group_by(model) %>%
+  eval_metrics(truth = sleep_hours, estimate = .pred) %>%
+  ggplot(aes(y = model, .estimate)) +
+  geom_col(fill = "midnightblue") +
+  facet_wrap(~ .metric, scales = "free", ncol = 1) +
+  labs(
+    title = "R: OOS Metrics without Retraining",
+    x = "Metric", y = NULL
+  )
+```
+
+
+```{r}
+rf_fit <- workflow() %>% 
+  add_recipe(rf_rec) %>% 
+  add_model(rand_forest() %>% 
+              set_mode("regression") %>% 
+              set_engine("ranger")) %>% 
+  fit(train)
+```
+
+Make predictions with basic model (random forest):
+
+```{r}
+rf_fit %>% 
+  augment(test) %>% 
+  transmute(date, sleep_hours = .pred) %>%  
+  write_csv("initial_basic_random_forest.csv")
+```
+
+Try baseline model (predicting average):
+
+```{r}
+test %>% 
+  transmute(date, sleep_hours = mean(train$sleep_hours)) %>% 
+  write_csv("baseline_submission.csv")
+```
+
+Likely need to parse the XML file!

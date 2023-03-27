@@ -173,17 +173,26 @@ To be written at the end of 2023...
 <p align="center">
   <img src="09 - Time Series and Retraining/electricity prices.png" width="500" />
   <img src="09 - Time Series and Retraining/RF_retraining_time series.png" width="500" />
-  <img src="09 - Time Series and Retraining/Preds_v_Actuals.png" width="300" />
+  <img src="09 - Time Series and Retraining/Preds_v_Actuals.png" width="500" />
 </p>
 
 ***
 
-### Week 10: Coming up...
+### Week 10: Pytorch 🔥🥅
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | [Swissgrid](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html#downloads) |
+| **Goal** | Create a Neural Network (Multilayer Perceptron) for the regression task of predicting daily energy consumption in Switzerland. Predictors are weather data, as well as date information. I split the data from 2012 to 2019 into training, validation and holdout sets for the training and then used an artifical neural network with one hidden layer of 128 nodes to predict the next day. |
+| **Keywords** | `Pytorch`, `Artificial Neural Network`, `Regression`, `Supervised learning`, `Overfitting`, `Underfitting` |
+| **Results** | The model achieves an $R^2$ of over 90% on the holdout data set, which wasn't used in the training process or validation process. |
+| **Notebooks** | [Python]() |
+
+<p align="center">
+  <img src="10 - Pytorch/python.png" width="500" />
+  <img src="10 - Pytorch/python1.png" width="500" />
+</p>
+
+***
+
+### Week 11: Coming up...
