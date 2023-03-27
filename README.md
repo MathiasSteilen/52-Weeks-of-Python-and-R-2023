@@ -186,7 +186,7 @@ To be written at the end of 2023...
 | **Goal** | Create a Neural Network (Multilayer Perceptron) for the regression task of predicting daily energy consumption in Switzerland. Predictors are weather data, as well as date information. I split the data from 2012 to 2019 into training, validation and holdout sets for the training and then used an artifical neural network with one hidden layer of 128 nodes to predict the next day. |
 | **Keywords** | `Pytorch`, `Artificial Neural Network`, `Regression`, `Supervised learning`, `Overfitting`, `Underfitting` |
 | **Results** | The model achieves an $R^2$ of over 90% on the holdout data set, which wasn't used in the training process or validation process. |
-| **Notebooks** | [Python]() |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb) |
 
 <p align="center">
   <img src="10 - Pytorch/python.png" width="500" />
