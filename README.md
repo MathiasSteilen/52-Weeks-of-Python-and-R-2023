@@ -186,7 +186,7 @@ To be written at the end of 2023...
 | **Goal** | Create a Neural Network (Multilayer Perceptron) for the regression task of predicting daily energy consumption in Switzerland in both regular PyTorch and the newer framework PyTorch Lightning. Predictors are weather data, as well as date information. I split the data from 2012 to 2019 into training, validation and holdout sets for the training and then used an artifical neural network with one hidden layer of 128 nodes to predict the next day. |
 | **Keywords** | `PyTorch`, `PyTorch Lightning`, `Artificial Neural Network`, `Regression`, `Supervised learning`, `Overfitting`, `Underfitting` |
 | **Results** | The model achieves an $R^2$ of over 90% on the holdout data set, which wasn't used in the training process or validation process. |
-| **Notebooks** | [PyTorch](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb), [PyTorch Lightning](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb) |
+| **Notebooks** | [PyTorch](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb), [PyTorch Lightning](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Pytorch%20Lightning.ipynb) |
 
 <p align="center">
   <img src="10 - Pytorch/Picture1.png" width="500" />
@@ -198,20 +198,73 @@ To be written at the end of 2023...
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | [Swissgrid](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html#downloads) |
+| **Data Source** | [Kaggle](https://www.kaggle.com/competitions/kaggle-pog-series-s01e04/overview) |
+| **Goal** | [Rob Mulla](https://www.youtube.com/@robmulla/streams) hosted the fourth installment of Pogchamps competition. This time, it's about predicting his sleep pattern (sleep in hours) from a set of health data (XML) and sleep data from 2015 to 2021. The goal is to land somewhere in the top half of the current leaderboard with a supervised model using `sklearn`.  |
+| **Keywords** | `XML`, `Supervised learning`, `LightGBM`, `Gradient Boosting`, Randomised Grid Search, K-Fold Cross Validation, Hyperparameter Tuning, Model Evaluation Metrics, `RMSE` |
+| **Results** | I first parsed the XML and aggregated all useable data to daily values, then left-joined on the training and testing dataset. Using LightGBM on a subset of the full training data, I managed to land in the top 25% of participants of 100 participants in the public leaderboard (20% of the data) in the last week of March. Of course, things might still change in the leaderboard, but my new year's resolution must go on. |
+| **Notebooks** | [Data Wrangling](), [EDA](), [Modelling]() |
+
+<p align="center">
+  <img src="11 - Kaggle Competition Rob Mulla/Ranking.png" width="500" />
+  <img src="11 - Kaggle Competition Rob Mulla/bruh.png" width="250" />
+</p>
+
+***
+
+### Week 12: Hyperparameter Tuning in with Raytune in Pytorch (Lightning) 🔥🛠️
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
 | **Goal** | TBD |
-| **Keywords** | `Supervised learning` |
+| **Keywords** | TBD |
 | **Results** | TBD |
-| **Notebooks** | [Python PyTorch](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb) |
+| **Notebooks** | TBD |
 
 ***
 
-### Week 12: Coming up...
+### Week 13: Image Classification - Detecting Cracks in Concrete
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
 
 ***
 
-### Week 13: Coming up...
+### Week 14: Fear and Greed
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
 
 ***
 
-### Week 14: Coming up...
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
