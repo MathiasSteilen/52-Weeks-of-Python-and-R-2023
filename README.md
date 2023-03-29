@@ -178,21 +178,40 @@ To be written at the end of 2023...
 
 ***
 
-### Week 10: Pytorch 🔥🥅
+### Week 10: PyTorch 🔥
 
 | | Description |
 | :----------- | :----------- |
 | **Data Source** | [Swissgrid](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html#downloads) |
-| **Goal** | Create a Neural Network (Multilayer Perceptron) for the regression task of predicting daily energy consumption in Switzerland. Predictors are weather data, as well as date information. I split the data from 2012 to 2019 into training, validation and holdout sets for the training and then used an artifical neural network with one hidden layer of 128 nodes to predict the next day. |
-| **Keywords** | `Pytorch`, `Artificial Neural Network`, `Regression`, `Supervised learning`, `Overfitting`, `Underfitting` |
+| **Goal** | Create a Neural Network (Multilayer Perceptron) for the regression task of predicting daily energy consumption in Switzerland in both regular PyTorch and the newer framework PyTorch Lightning. Predictors are weather data, as well as date information. I split the data from 2012 to 2019 into training, validation and holdout sets for the training and then used an artifical neural network with one hidden layer of 128 nodes to predict the next day. |
+| **Keywords** | `PyTorch`, `PyTorch Lightning`, `Artificial Neural Network`, `Regression`, `Supervised learning`, `Overfitting`, `Underfitting` |
 | **Results** | The model achieves an $R^2$ of over 90% on the holdout data set, which wasn't used in the training process or validation process. |
-| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb) |
+| **Notebooks** | [PyTorch](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb), [PyTorch Lightning](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb) |
 
 <p align="center">
-  <img src="10 - Pytorch/python.png" width="500" />
-  <img src="10 - Pytorch/python1.png" width="500" />
+  <img src="10 - Pytorch/Picture1.png" width="500" />
 </p>
 
 ***
 
-### Week 11: Coming up...
+### Week 11: Kaggle Competition on Sleep Prediction 😴🛏️
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | [Swissgrid](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html#downloads) |
+| **Goal** | TBD |
+| **Keywords** | `Supervised learning` |
+| **Results** | TBD |
+| **Notebooks** | [Python PyTorch](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/10%20-%20Pytorch/Newer%20ANN%20Test.ipynb) |
+
+***
+
+### Week 12: Coming up...
+
+***
+
+### Week 13: Coming up...
+
+***
+
+### Week 14: Coming up...
