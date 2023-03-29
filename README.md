@@ -202,7 +202,7 @@ To be written at the end of 2023...
 | **Goal** | [Rob Mulla](https://www.youtube.com/@robmulla/streams) hosted the fourth installment of Pogchamps competition. This time, it's about predicting his sleep pattern (sleep in hours) from a set of health data (XML) and sleep data from 2015 to 2021. The goal is to land somewhere in the top half of the current leaderboard with a supervised model using `sklearn`.  |
 | **Keywords** | `XML`, `Supervised learning`, `LightGBM`, `Gradient Boosting`, Randomised Grid Search, K-Fold Cross Validation, Hyperparameter Tuning, Model Evaluation Metrics, `RMSE` |
 | **Results** | I first parsed the XML and aggregated all useable data to daily values, then left-joined on the training and testing dataset. Using LightGBM on a subset of the full training data, I managed to land in the top 25% of participants of 100 participants in the public leaderboard (20% of the data) in the last week of March. Of course, things might still change in the leaderboard, but my new year's resolution must go on. |
-| **Notebooks** | [Data Wrangling](), [EDA](), [Modelling]() |
+| **Notebooks** | [Data Preparation](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/11%20-%20Kaggle%20Competition%20Rob%20Mulla/Data%20Preparation.ipynb), [EDA](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/11%20-%20Kaggle%20Competition%20Rob%20Mulla/EDA.ipynb), [Modelling](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/11%20-%20Kaggle%20Competition%20Rob%20Mulla/Modelling.ipynb) |
 
 <p align="center">
   <img src="11 - Kaggle Competition Rob Mulla/Ranking.png" width="500" />
