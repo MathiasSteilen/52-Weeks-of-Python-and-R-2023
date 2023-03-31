@@ -1,20 +1,18 @@
 # 2023: 52 Weeks of Working with Data in  `Python` and `R`
 
-## Content of this respository
-
 This repo holds the contents of the challenge I set myself for 2023:
 
-> Finish one machine learning, data wrangling or data viz project each week of 2023 in both Python and R.
+> **Finish one machine learning, data wrangling or data viz project each week of 2023 in both Python and R.**
 
 Given that both languages are complements nowadays, with R being strongest for data wrangling and visualisation and Python being the predominant language for machine learning, I believe that this challenge will be incredibly useful to gain hands-on experience.
 
 <br>
 
-## Conclusion
+<!-- ## Conclusion
 
 To be written at the end of 2023...
 
-<br>
+<br> -->
 
 ## Summary of Weekly Projects
 
@@ -31,8 +29,8 @@ To be written at the end of 2023...
 | **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/01%20-%20Olympic%20Athletes/OlympicsPython.ipynb), [R](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/01%20-%20Olympic%20Athletes/OlympicsR.ipynb) |
 
 <p align="center">
-  <img src="01 - Olympic Athletes/python.png" height="300" />
-  <img src="01 - Olympic Athletes/r.png" height="300" />
+  <img src="01 - Olympic Athletes/python.png" height="250" />
+  <img src="01 - Olympic Athletes/r.png" height="250" />
 </p>
 
 ***
@@ -178,7 +176,7 @@ To be written at the end of 2023...
 
 ***
 
-### Week 10: PyTorch 🔥
+### Week 10: Neural Network with PyTorch 🔥
 
 | | Description |
 | :----------- | :----------- |
@@ -206,12 +204,11 @@ To be written at the end of 2023...
 
 <p align="center">
   <img src="11 - Kaggle Competition Rob Mulla/Ranking.png" width="500" />
-  <img src="11 - Kaggle Competition Rob Mulla/bruh.png" width="250" />
 </p>
 
 ***
 
-### Week 12: Hyperparameter Tuning in with Raytune in Pytorch (Lightning) 🔥🛠️
+### Week 12: Hyperparameter Tuning in with Raytune in Pytorch Lightning 🔥🛠️
 
 | | Description |
 | :----------- | :----------- |
@@ -219,7 +216,7 @@ To be written at the end of 2023...
 | **Goal** | Previously, I have created an MLP in PyTorch and PyTorch Lightning to predict Swiss Energy Demand. The hyperparameters for the latter were handpicked (e.g. hidden layer nodes, batch size and learning rate). The goal for this week is to pick up `RayTune`, a library for experiment execution and hyperparameter tuning at any scale, and tune hyperparameters parallely on my CPU. Further, I want to implement an early stopping technique to cancel unpromising trials for time efficiency. |
 | **Keywords** | `RayTune`, `Hyperparameter Tuning`, `Parallel Computation`, `ASHAScheduler`, `PyTorch`, `PyTorch Lightning`, `Artificial Neural Network`, `Regression`, `Supervised learning`, `Overfitting`, `Underfitting` |
 | **Results** | The hyperparameters to be tuned were `learning rate` (lr), `batch size` (batch_size), and the `number of nodes` in the first (nodes1) and second (nodes2) layers. I used callbacks for saving the states of the models during training, in order to be able to reload checkpoints of the best model. I used the ASHAScheduler to end unpromising trials early for time efficiency. The tuning process improved the R squared by about 3 ppts and significantly reduced RMSE, indicating that the tuning was a success. |
-| **Notebooks** | Python[]() |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/12%20-%20PyTorch%20Hyperparameter%20Tuning/Pytorch%20Lightning.ipynb) |
 
 <p align="center">
   <img src="12 - PyTorch Hyperparameter Tuning/Picture1.png" width="500" />
