@@ -215,11 +215,18 @@ To be written at the end of 2023...
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | [Swissgrid](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html#downloads) |
+| **Goal** | Previously, I have created an MLP in PyTorch and PyTorch Lightning to predict Swiss Energy Demand. The hyperparameters for the latter were handpicked (e.g. hidden layer nodes, batch size and learning rate). The goal for this week is to pick up `RayTune`, a library for experiment execution and hyperparameter tuning at any scale, and tune hyperparameters parallely on my CPU. Further, I want to implement an early stopping technique to cancel unpromising trials for time efficiency. |
+| **Keywords** | `RayTune`, `Hyperparameter Tuning`, `Parallel Computation`, `ASHAScheduler`, `PyTorch`, `PyTorch Lightning`, `Artificial Neural Network`, `Regression`, `Supervised learning`, `Overfitting`, `Underfitting` |
+| **Results** | The hyperparameters to be tuned were `learning rate` (lr), `batch size` (batch_size), and the `number of nodes` in the first (nodes1) and second (nodes2) layers. I used callbacks for saving the states of the models during training, in order to be able to reload checkpoints of the best model. I used the ASHAScheduler to end unpromising trials early for time efficiency. The tuning process improved the R squared by about 3 ppts and significantly reduced RMSE, indicating that the tuning was a success. |
+| **Notebooks** | Python[]() |
+
+<p align="center">
+  <img src="12 - PyTorch Hyperparameter Tuning/Picture1.png" width="500" />
+  <img src="12 - PyTorch Hyperparameter Tuning/python4.png" width="500" />
+  <img src="12 - PyTorch Hyperparameter Tuning/python.png" width="500" />
+  <img src="12 - PyTorch Hyperparameter Tuning/meme.png" width="150" />
+</p>
 
 ***
 
