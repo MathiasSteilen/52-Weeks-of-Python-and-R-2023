@@ -1,0 +1,273 @@
+---
+title: "Used Motorcycles"
+output: 
+  html_document:
+    theme: readable
+    toc: FALSE
+    toc_depth: 3
+    toc_float: TRUE
+    df_print: paged
+    code_folding: hide
+editor_options: 
+  chunk_output_type: console
+---
+
+[Return to Homepage](https://mathiassteilen.github.io/)
+
+[Return to Data Visualisation Section](https://mathiassteilen.github.io/dataviz.html)
+
+![](../Graphics/)
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{css, echo=FALSE}
+pre, code {white-space:pre !important; overflow-x:auto}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
+
+library(tidyverse)
+library(textrecipes)
+library(stringr)
+library(scales)
+
+theme_set(theme_bw() +
+            theme(plot.title = element_text(face = "bold", size = 14),
+                  plot.subtitle = element_text(face = "italic", size = 10, 
+                                               colour = "grey50")))
+```
+
+<br>
+
+***
+### Data Cleaning
+***
+
+Combining the files:
+
+```{r}
+data <- bind_rows(read_csv("cb500f-clean.csv"),
+                  read_csv("mt07-clean.csv"),
+                  read_csv("er6n-clean.csv"),
+                  read_csv("z650-clean.csv")) %>% 
+  mutate(
+    displacement = parse_number(displacement),
+    full_name = str_replace(gsub("\\s+", " ", str_trim(full_name)), "B", "b"),
+    model_clean = case_when(
+      # Kawasaki Z650
+      str_detect(gsub(" ", "", full_name, fixed = TRUE),
+                 regex("650RS", ignore_case = T)) ~ "KAWASAKI Z 650 RS",
+      str_detect(gsub(" ", "", description, fixed = TRUE),
+                 regex("650RS", ignore_case = T)) ~ "KAWASAKI Z 650 RS",
+      str_detect(gsub(" ", "", full_name, fixed = TRUE),
+                 regex("Z650", ignore_case = T)) ~ "KAWASAKI Z 650",
+      str_detect(full_name, regex("KAWASAKI Z650", ignore_case = T)) ~ "KAWASAKI Z 650",
+      # Kawasaki Er6n
+      str_detect(full_name, regex("ER-6n", ignore_case = T)) ~ "KAWASAKI ER6n",
+      str_detect(full_name, regex("ER-6 n", ignore_case = T)) ~ "KAWASAKI ER6n",
+      str_detect(full_name, regex("ER6n", ignore_case = T)) ~ "KAWASAKI ER6n",
+      str_detect(full_name, regex("ER6-n", ignore_case = T)) ~ "KAWASAKI ER6n",
+      # Yamaha
+      str_detect(full_name, regex("MT-07", ignore_case = T)) ~ "YAMAHA MT-07",
+      str_detect(full_name, regex("MT07", ignore_case = T)) ~ "YAMAHA MT-07",
+      str_detect(full_name, regex("MT 07", ignore_case = T)) ~ "YAMAHA MT-07",
+      # Honda
+      str_detect(full_name, regex("HONDA CB 500 F", ignore_case = T)) ~ "HONDA CB 500 F",
+      str_detect(full_name, regex("HONDA CB 500 F", ignore_case = T)) ~ "HONDA CB 500 F",
+      str_detect(full_name, regex("HONDA CB500 F", ignore_case = T)) ~ "HONDA CB 500 F",
+      str_detect(full_name, regex("HONDA CB500 F", ignore_case = T)) ~ "HONDA CB 500 F",
+      str_detect(full_name, regex("HONDA CB500F", ignore_case = T)) ~ "HONDA CB 500 F",
+      str_detect(full_name, regex("HONDA CB 500F", ignore_case = T)) ~ "HONDA CB 500 F",
+      TRUE ~ full_name
+    ),
+    is_35kw = case_when(
+      str_detect(model, regex("35KW", ignore_case = T)) ~ "yes",
+      str_detect(model, regex("35 KW", ignore_case = T)) ~ "yes",
+      str_detect(description, regex("35KW", ignore_case = T)) ~ "yes",
+      str_detect(description, regex("35 KW", ignore_case = T)) ~ "yes",
+      TRUE ~ "no"
+    ),
+    mileage_category = case_when(
+      between(mileage_km, 0, 5000) ~ "5000",
+      between(mileage_km, 5001, 10000) ~ "10000",
+      between(mileage_km, 10001, 20000) ~ "20000",
+      between(mileage_km, 20001, 30000) ~ "30000",
+      mileage_km > 30000 ~ "more"
+    ),
+    age_category = case_when(
+      between(year, 2023, 2023) ~ "2023",
+      between(year, 2021, 2023) ~ "2021-2022",
+      between(year, 2018, 2020) ~ "2018-2020",
+      year < 2018 ~ "older"
+    ),
+    age_category = factor(age_category, levels = c("older", "2018-2020", 
+                                                   "2021-2022", "2023"))
+  ) %>% 
+  filter(price_chf < 12500,
+         price_chf > 1000,
+         model_clean != "KAWASAKI Z 650 RS")
+```
+
+```{r}
+data %>% count(age_category)
+```
+
+<br>
+
+***
+### Exploratory Data Analysis (EDA)
+***
+
+Which model costs how much for different age and mileage groups?
+
+```{r}
+data %>% 
+  filter(price_chf < 12500) %>% 
+  ggplot(aes(y = model_clean, x = price_chf)) +
+  geom_jitter(height = 0.2, alpha = 0.5) +
+  labs(title = "Prices by Model",
+       y = NULL, x = NULL) +
+  scale_x_continuous(labels = comma_format(suffix = " CHF"))
+```
+
+```{r}
+data %>% 
+  filter(mileage_km < 30000,
+         year > 2015) %>% 
+  ggplot(aes(y = price_chf, x = mileage_km)) +
+  geom_jitter(aes(colour = age_category), height = 0.2, alpha = 0.5) +
+  labs(title = "Prices by Model, Mileage and Age",
+       y = NULL, x = NULL) +
+  facet_wrap(~ model_clean, ncol = 2, scales = "free_y") +
+  scale_y_continuous(labels = comma_format(suffix = " CHF")) +
+  scale_x_continuous(labels = comma_format(suffix = "km"))
+```
+
+```{r}
+data %>% 
+  filter(mileage_km < 30000,
+         year > 2015) %>% 
+  mutate(mileage_km = round(mileage_km/5000)*5000) %>% 
+  group_by(model_clean, age_category, mileage_km) %>% 
+  summarise(price_chf = mean(price_chf, na.rm = T)) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = mileage_km, y = price_chf, colour = age_category)) +
+  geom_point(shape = "square", alpha = 0.8) +
+  facet_wrap(~ model_clean) +
+  labs(title = "Average Price by Mileage and Age",
+       subtitle = "Mileage binned into 5,000 km intervals.",
+       x = "Mileage", y = NULL, colour = "Year of\nConstruction") +
+  scale_y_continuous(labels = comma_format(suffix = " CHF")) +
+  scale_x_continuous(labels = comma_format()) +
+  ggsci::scale_colour_jama()
+```
+
+
+```{r}
+data %>% count(sort = T, Zustand)
+```
+
+
+```{r}
+data %>% glimpse()
+```
+
+
+
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+data %>% 
+  select(where(is.character)) %>% 
+  select(-c(full_name, model, description, title)) %>% 
+  pivot_longer(everything()) %>% 
+  drop_na() %>% 
+  group_by(name) %>% 
+  mutate(value = fct_lump(value, n = 15)) %>% 
+  count(value) %>% 
+  mutate(value = reorder_within(value, n, name)) %>% 
+  ggplot(aes(n, value)) +
+  geom_col(fill = "midnightblue", alpha = 0.8)  +
+  facet_wrap(~ name, scales = "free", ncol = 4) +
+  labs(title = "Frequency Of Used Motorcycle Properties on anibis.ch",
+       y = NULL,
+       x = "Count") +
+  scale_x_continuous(labels = scales::comma_format()) +
+  scale_y_reordered() +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"),
+        panel.grid.major.y = element_blank(),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+data %>% 
+  select(where(is.numeric)) %>% 
+  select(-c(listing_no, id)) %>% 
+  pivot_longer(everything()) %>%
+  drop_na() %>% 
+  ggplot(aes(value)) +
+  stat_ecdf() +
+  facet_wrap(~ name, scales = "free") +
+  labs(title = "Cumulative Distribution Of Used Motorcycle Characteristics on anibis.ch",
+       y = NULL,
+       x = NULL) +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"),
+        panel.grid.major.y = element_blank())
+```
+
+<br>
+
+##### More interesting plots:
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+data %>%
+  select(brand, colour) %>% 
+  drop_na() %>% 
+  group_by(brand = fct_lump(brand, n = 10)) %>% 
+  count(colour) %>% 
+  filter(n > 10) %>% 
+  ggplot(aes(y = colour %>% reorder_within(by = n, within = brand),
+             x = n,
+             fill = brand)) +
+  geom_col() +
+  facet_wrap(~ brand, scales = "free") +
+  labs(title = "Car Colours By Brand on anibis.ch",
+       subtitle = "sample size: n = 29,989 | as of 09/22 | showing most frequent colours and brand",
+       x = "Count",
+       y = NULL) +
+  scale_fill_manual(values = MetBrewer::met.brewer(name = "VanGogh1",
+                                                   n = 12)) +
+  scale_y_reordered() +
+  guides(fill = "none") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+##### EDA
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+data %>% 
+  mutate(age = 2022 - year) %>%
+  select(price_chf, mileage_km, displacement, age) %>% 
+  drop_na() %>% 
+  pivot_longer(-price_chf) %>% 
+  ggplot(aes(value, price_chf)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = F) +
+  facet_wrap(~ name, scales = "free") +
+  scale_y_continuous(labels = comma_format(suffix = " CHF")) +
+  theme_bw()
+```

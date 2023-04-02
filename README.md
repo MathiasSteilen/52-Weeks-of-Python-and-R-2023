@@ -188,6 +188,7 @@ To be written at the end of 2023...
 
 <p align="center">
   <img src="10 - Pytorch/Picture1.png" width="500" />
+  <img src="10 - Pytorch/Plots for GIF/NN Animation.gif" width="500" />
 </p>
 
 ***

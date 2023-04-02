@@ -1,0 +1,762 @@
+---
+title: "Deploying A Trained Model Predicting Used Car Prices In A Shiny Web Application"
+output: 
+  html_document:
+    theme: readable
+    toc: FALSE
+    toc_depth: 3
+    toc_float: TRUE
+    df_print: paged
+    code_folding: hide
+editor_options: 
+  chunk_output_type: console
+---
+
+[Return to Homepage](https://mathiassteilen.github.io/)
+
+[Return to Data Visualisation Section](https://mathiassteilen.github.io/dataviz.html)
+
+![](../Graphics/)
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{css, echo=FALSE}
+pre, code {white-space:pre !important; overflow-x:auto}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
+
+library(tidyverse)
+library(tidytext)
+library(broom)
+library(readxl)
+library(lubridate)
+library(patchwork)
+library(rvest)
+library(httr)
+library(tidymodels)
+library(textrecipes)
+library(vip)
+library(doParallel)
+library(bundle)
+```
+
+***
+### Data Scraping
+***
+
+##### Requesting sublinks to individual listings from site
+
+```{r class.source='fold-show', eval=FALSE}
+pages <- 1:20
+
+start_urls <- paste0("https://www.anibis.ch/de/c/motorrad-velo-motorraeder?fts=Kawasaki%20Z650&pi=",
+                     pages) %>% 
+  as_tibble() %>% 
+  rename(url = value)
+
+start_urls
+
+# Fetch subpages from listings from each overview page
+
+listings <- start_urls %>%
+  mutate(subpages = map(url, function(.x) {
+    return(
+      GET(.x, timeout(10)) %>% 
+        read_html(.) %>%
+        html_nodes("[class ='sc-1yo7ctu-0 bRDNul']") %>%
+        html_attr('href') %>%
+        as_tibble() %>%
+        rename(subpage = value) %>%
+        mutate(subpage = paste0("https://www.anibis.ch", subpage))
+    )
+  }))
+
+listings
+
+# Extract subpage urls and clean as tibble
+
+subpage_urls <- listings %>% 
+  select(subpages) %>% 
+  unnest(subpages)
+
+subpage_urls %>% 
+  write_csv("subpage_urls.csv")
+
+# Read in html from each subpage (Danger of timeout here)
+
+# subpage_urls <- subpage_urls %>% 
+#   mutate(subpage_content = map(subpage, function(.x) {
+#     return(GET(.x, timeout(20)) %>% 
+#              read_html(.))
+#   }))
+# 
+# subpage_urls
+```
+
+<br>
+
+##### Using for-loop to store full html in memory
+
+```{r, echo=FALSE, eval=FALSE}
+subpage_urls <- read_csv("subpage_urls.csv")
+```
+
+```{r class.source='fold-show', eval=FALSE}
+tmp <- subpage_urls
+
+subpages_content <- vector(mode = "list", length = nrow(tmp))
+
+for (x in 1:nrow(tmp)){
+  
+  url_tmp <- tmp[x, "subpage"] %>% 
+    pull()
+  
+  tryCatch(
+    subpages_content[[x]] <- url_tmp %>%
+      GET(., timeout(90)) %>% 
+      read_html(.),
+    error = function(e){NA}
+  )
+  
+  print(paste("Link", x, "retrieved"))
+  
+}
+
+subpage_content <- tibble(listing = subpages_content)
+
+subpage_content <- subpage_content %>% 
+  mutate(is_null = map(listing, is.null)) %>% 
+  unnest(is_null) %>% 
+  filter(is_null == FALSE) %>% 
+  select(-is_null)
+```
+
+<br>
+
+##### Extract text from scraped content into a tibble:
+
+```{r class.source='fold-show', eval=FALSE}
+listings_raw <- tibble(
+  listing_no = 1:nrow(subpage_content),
+  listing = subpage_content %>% pull(),
+  header = map(listing, function(.x){
+    return(.x %>% 
+             html_nodes(".fauvte") %>%
+             html_text())
+  }),
+  title = map(listing, function(.x){
+    return(.x %>% 
+             html_nodes(".kRXwLc") %>% 
+             html_text())
+  }),
+  description = map(listing, function(.x){
+    return(.x %>% 
+             html_nodes(".jiLXjg") %>% 
+             html_text())
+  }),
+  content = map(listing, function(.x){
+    return(.x %>% 
+             html_nodes(".goTXZq") %>%
+             html_text())
+  }),
+  price = map(listing, function(.x){
+    return(.x %>% 
+             html_node(".knSuBJ") %>%
+             html_text())
+  }),
+  model_simple = map(listing, function(.x){
+    return(.x %>% 
+             html_node(".jOflgH .sc-258i13-0") %>%
+             html_text())
+  })
+) %>%
+  select(-listing) %>% 
+  unnest(everything()) %>% 
+  pivot_wider(values_from = content, names_from = header)
+```
+
+```{r, eval=FALSE, echo=FALSE}
+write_csv(listings_raw, "C:/Users/mathi/OneDrive/R/Data Visualisation/Used Cars Web Scraping/z650-raw.csv")
+```
+
+<br>
+
+***
+### Data Cleaning
+***
+
+```{r class.source='fold-show', warning=FALSE, eval=FALSE}
+listings_clean <- listings_raw %>% 
+  mutate(across(c(price, Kilometer), ~ gsub("'", "", .x)),
+         across(c(price, Kilometer, Baujahr), ~ parse_number(.x)),
+         across(c(Marke, Modell, Getriebeart, Treibstoff,
+                  Aussenfarbe, Antrieb), ~ trimws(.x)),
+         across(`Letzte Änderung`, ~ lubridate::dmy(.x)),
+         across(`Ab MFK`, 
+                ~ case_when(is.na(.x) ~ "no", .x == "" ~ "yes"))) %>% 
+  rename(full_name = model_simple, brand = Marke, model = Modell,
+         mileage_km = Kilometer, year = Baujahr, transmission = Getriebeart,
+         fuel = Treibstoff, colour = Aussenfarbe, 
+         displacement = `Hubraum (Ccm)`,
+         last_edited = `Letzte Änderung`, id = Inseratnummer, 
+         drive = Antrieb, mfk = `Ab MFK`, price_chf = price,
+         listing_type = `Art des Inserats`)
+
+listings_clean %>% glimpse()
+```
+
+```{r, eval=FALSE, echo=FALSE}
+write_csv(listings_clean, "C:/Users/mathi/OneDrive/R/Data Visualisation/Used Cars Web Scraping/z650-clean.csv")
+```
+
+<br>
+
+***
+### Exploratory Data Analysis (EDA)
+***
+
+Before training a model, I will explore the clean data set and gauge relations between variables. Let's first take a look at the frequency of categorical predictors. I lumped levels beyond $N=15$ together, so that the y axis can be read properly.
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  select(where(is.character)) %>% 
+  select(-c(full_name, model)) %>% 
+  pivot_longer(everything()) %>% 
+  drop_na() %>% 
+  group_by(name) %>% 
+  mutate(value = fct_lump(value, n = 15)) %>% 
+  count(value) %>% 
+  mutate(value = reorder_within(value, n, name)) %>% 
+  ggplot(aes(n, value)) +
+  geom_col(fill = "midnightblue", alpha = 0.8)  +
+  facet_wrap(~ name, scales = "free", ncol = 4) +
+  labs(title = "Frequency Of Used Car Properties on anibis.ch",
+       subtitle = "Sample Size = 30,504 | Data as of 09/22",
+       y = NULL,
+       x = "Count") +
+  scale_x_continuous(labels = scales::comma_format()) +
+  scale_y_reordered() +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"),
+        panel.grid.major.y = element_blank(),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+Unsurprisingly, most common brands are German car brands like VW, Mercedes, Audi and BMW. Next up, let's inspect the numerical variables:
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  select(where(is.numeric)) %>% 
+  select(-c(listing_no, id)) %>% 
+  pivot_longer(everything()) %>%
+  drop_na() %>% 
+  ggplot(aes(value)) +
+  stat_ecdf() +
+  facet_wrap(~ name, scales = "free") +
+  labs(title = "Cumulative Distribution Of Used Car Characteristics on anibis.ch",
+       subtitle = "Sample Size = 30,504 | Data as of 09/22",
+       y = NULL,
+       x = NULL) +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"),
+        panel.grid.major.y = element_blank())
+```
+
+<br>
+
+##### More interesting plots:
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  filter(year > 1995) %>% 
+  count(transmission, year) %>% 
+  drop_na() %>% 
+  pivot_wider(values_from = n, names_from = transmission) %>% 
+  mutate(pct_automatic = Automatik/(Automatik + Handschaltung)) %>% 
+  ggplot(aes(year, pct_automatic)) +
+  geom_area(alpha = 0.8, fill = "midnightblue") +
+  labs(title = "Percentage of cars with automatic transmission by construction year",
+       subtitle = "Sample size: 29,284 / Scraped from anibis.ch in 09/2022",
+       y = "Percentage Automatic Cars",
+       x = NULL) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  group_by(year) %>% 
+  summarise(mean_hp = mean(horsepower, na.rm = T),
+            median_hp = median(horsepower, na.rm = T)) %>% 
+  filter(year > 1995) %>% 
+  pivot_longer(-year) %>% 
+  ggplot(aes(year, value, colour = name)) +
+  geom_line(size = 1) +
+  labs(title = "Horsepower of used cars by construction year",
+       subtitle = "Sample size: 29,284 | Scraped from anibis.ch in 09/2022",
+       y = "Horsepower",
+       x = NULL,
+       colour = NULL) +
+  scale_y_continuous(labels = scales::comma_format()) +
+  ggsci::scale_colour_futurama() +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  select(brand, horsepower) %>% 
+  drop_na() %>%
+  filter(horsepower > 0) %>% 
+  mutate(brand = fct_lump(brand, n = 20)) %>% 
+  add_count(brand) %>% 
+  mutate(brand = paste0(brand, " (N=", n, ")"),
+         brand = fct_reorder(brand, horsepower, .desc = TRUE)) %>% 
+  ggplot(aes(horsepower, brand)) +
+  geom_boxplot(outlier.colour = NA) +
+  labs(title = "Horsepower distribution of used cars by brand",
+       subtitle = "Sample Size: N = 29,610 | as of 09/22 | Scraped from anibis.ch in 09/2022",
+       x = NULL,
+       y = NULL) +
+  scale_x_continuous(labels = scales::comma_format(suffix = " HP")) +
+  coord_cartesian(xlim = c(0,750)) +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  select(brand, price_chf) %>% 
+  drop_na() %>%
+  filter(price_chf > 0) %>% 
+  mutate(brand = fct_lump(brand, n = 20)) %>% 
+  add_count(brand) %>% 
+  mutate(brand = paste0(brand, " (N=", n, ")"),
+         brand = fct_reorder(brand, price_chf, .desc = TRUE)) %>% 
+  ggplot(aes(price_chf, brand)) +
+  geom_boxplot(outlier.colour = NA) +
+  labs(title = "Price distribution of used cars by brand",
+       subtitle = "Sample Size: N = 29,610 | as of 09/22 | Scraped from anibis.ch in 09/2022",
+       x = NULL,
+       y = NULL) +
+  scale_x_continuous(labels = scales::comma_format(suffix = " CHF")) +
+  coord_cartesian(xlim = c(0,3e5)) +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  select(year, price_chf, brand) %>% 
+  drop_na() %>% 
+  mutate(age = 2023 - year) %>% 
+  filter(age < 20,
+         age > 0,
+         fct_lump(brand, n = 12) != "Other") %>% 
+  group_by(brand, age) %>% 
+  summarise(median_price = median(price_chf)) %>% 
+  mutate(change = median_price/first(median_price)) %>% 
+  select(age, brand, change) %>% 
+  ggplot(aes(age, change, colour = brand)) +
+  geom_point() +
+  geom_line() +
+  geom_hline(yintercept = 0.5, lty = "dashed", colour = "grey50") +
+  facet_wrap(~ brand) +
+  expand_limits(y = 0) +
+  labs(title = "Used Car Price Change By Age on anibis.ch",
+       subtitle = "sample size: n = 18,733 | as of 09/22 | Age 1 is 100%",
+       x = "Vehicle Age",
+       y = "Price (as %) compared to age = 1") +
+  scale_y_continuous(labels = percent_format()) +
+  ggsci::scale_colour_futurama() +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"),
+        legend.position = "none")
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+
+cars %>%
+  select(brand, colour) %>% 
+  drop_na() %>% 
+  group_by(brand = fct_lump(brand, n = 10)) %>% 
+  count(colour) %>% 
+  filter(n > 12) %>% 
+  ggplot(aes(y = colour %>% reorder_within(by = n, within = brand),
+             x = n,
+             fill = brand)) +
+  geom_col() +
+  facet_wrap(~ brand, scales = "free") +
+  labs(title = "Car Colours By Brand on anibis.ch",
+       subtitle = "sample size: n = 29,989 | as of 09/22 | showing most frequent colours and brand",
+       x = "Count",
+       y = NULL) +
+  scale_fill_manual(values = MetBrewer::met.brewer(name = "VanGogh1",
+                                                   n = 12)) +
+  scale_y_reordered() +
+  guides(fill = "none") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>%
+  select(brand, body_type) %>% 
+  drop_na() %>% 
+  group_by(brand = fct_lump(brand, n = 10)) %>% 
+  count(body_type) %>% 
+  filter(n > 15) %>%  
+  ggplot(aes(y = body_type %>% reorder_within(by = n, within = brand),
+             x = n,
+             fill = brand)) +
+  geom_col() +
+  facet_wrap(~ brand, scales = "free") +
+  labs(title = "Car Colours By Brand on anibis.ch",
+       subtitle = "sample size: n = 29,989 | as of 09/22 | showing most frequent colours and brand",
+       x = "Count",
+       y = NULL) +
+  scale_y_reordered() +
+  scale_fill_manual(values = MetBrewer::met.brewer(name = "VanGogh1",
+                                                   n = 12)) +
+  guides(fill = "none") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  select(body_type, price_chf) %>% 
+  drop_na() %>% 
+  add_count(body_type) %>% 
+  mutate(body_type = paste0(body_type, " (N=", n, ")"),
+         body_type = fct_reorder(body_type, price_chf, .desc = TRUE)) %>% 
+  ggplot(aes(price_chf, body_type)) +
+  geom_boxplot(outlier.colour = NA) +
+  labs(title = "Prices of used cars by body type",
+       subtitle = "Sample Size: N = 30,065 | as of 09/22 | Scraped from anibis.ch in 09/2022",
+       x = NULL,
+       y = NULL) +
+  scale_x_continuous(labels = scales::comma_format(suffix = " CHF")) +
+  coord_cartesian(xlim = c(0,3e5)) +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  select(brand, body_type) %>% 
+  drop_na() %>% 
+  group_by(brand = fct_lump(brand, n = 12)) %>% 
+  filter(brand != "Other") %>%
+  count(body_type) %>% 
+  ggplot(aes(n, 
+             body_type %>% reorder_within(n, brand),
+             fill = brand)) +
+  geom_col() +
+  facet_wrap(~ brand, scales = "free") +
+  labs(title = "Body types of used cars by brand",
+       subtitle = "Sample Size: N = 29,787 | as of 09/22 | Scraped from anibis.ch in 09/2022",
+       x = NULL,
+       y = NULL) +
+  scale_x_continuous(labels = scales::comma_format()) +
+  scale_y_reordered() +
+  scale_fill_manual(values = MetBrewer::met.brewer(name = "VanGogh1",
+                                                   n = 12)) +
+  guides(fill = "none") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+##### EDA
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+set.seed(12)
+
+cars %>% 
+  sample_n(1000) %>% 
+  mutate(age = 2022 - year) %>%
+  select(price_chf, mileage_km, horsepower, age) %>% 
+  drop_na() %>% 
+  pivot_longer(-price_chf) %>% 
+  ggplot(aes(value, price_chf)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = F) +
+  facet_wrap(~ name, scales = "free") +
+  scale_y_continuous(labels = comma_format(suffix = " CHF")) +
+  theme_bw()
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+cars %>% 
+  select(model, price_chf) %>% 
+  drop_na() %>% 
+  unnest_tokens(input = model, output = "tokens", token = "words") %>% 
+  add_count(tokens, sort = T) %>% 
+  group_by(tokens) %>% 
+  summarise(median_price = median(price_chf),
+            n = last(n)) %>% 
+  filter(n > 1000) %>% 
+  ggplot(aes(median_price, 
+             tokens %>% fct_reorder(median_price))) +
+  geom_col(fill = "midnightblue") +
+  labs(title = "Components of car model names explain variance in prices",
+       subtitle = "Sample Size: N = 30,496 | as of 09/22 | Scraped from anibis.ch in 09/2022\nModel names are tokenised by words. Only tokens with frequency N > 1000 are shown.",
+       x = NULL,
+       y = NULL) +
+  scale_x_continuous(labels = scales::comma_format()) +
+  scale_y_reordered() +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        plot.subtitle = element_text(face = "italic", size = 10, 
+                                     colour = "grey50"))
+```
+
+<br>
+
+***
+### Fitting A Model
+***
+
+First, the data is split into training and testing sets. Also, five-fold cross validation is employed for reliable calculation of performance metrics, bearing in mind time efficiency.
+
+```{r class.source = 'fold-show'}
+dt_split <- cars %>% 
+  mutate(across(where(is.character), as.factor)) %>% 
+  initial_split()
+
+dt_train <- training(dt_split)
+dt_test <- testing(dt_split)
+
+folds <- vfold_cv(dt_train, v = 5)
+```
+
+The recipe in the _tidymodels_ framework makes it very straightforward to include all feature engineering in one step, preventing data leakage from the test set and uniformly applying the same steps to the holdout in the final fit.
+
+```{r class.source = 'fold-show'}
+model_rec <- recipe(price_chf ~ .,
+                    data = dt_train) %>%
+  step_rm(listing_no, full_name, last_edited, id) %>% 
+  step_mutate(horsepower = ifelse(horsepower == 0, NA, horsepower)) %>% 
+  step_impute_median(all_numeric_predictors()) %>% 
+  step_novel(all_nominal_predictors()) %>%
+  step_unknown(all_nominal_predictors()) %>% 
+  step_tokenize(model) %>% 
+  step_stopwords(model) %>% 
+  step_tokenfilter(model, max_tokens = 500) %>% 
+  step_tf(model) %>%
+  step_zv(all_predictors()) %>% 
+  step_normalize(all_numeric_predictors()) %>% 
+  step_other(all_nominal_predictors(), threshold = 0.005) %>% 
+  step_dummy(all_nominal_predictors(), one_hot = TRUE)
+```
+
+```{r, echo=F, include=FALSE, eval=FALSE}
+model_rec %>%  
+  prep() %>%
+  juice() %>% 
+  glimpse()
+
+model_rec %>%  
+  prep() %>%
+  bake(new_data = dt_test) %>% 
+  glimpse()
+```
+
+Setting up the model specifications with tuning options for hyperparameters:
+
+```{r class.source = 'fold-show'}
+gb_spec <- 
+  boost_tree(
+    trees = 1000,
+    tree_depth = tune(),
+    min_n = tune(),
+    loss_reduction = tune(),
+    sample_size = tune(),
+    mtry = tune(),
+    learn_rate = tune()
+  ) %>%
+  set_engine("xgboost", importance = "impurity") %>%
+  set_mode("regression")
+```
+
+Setting up the model workflow:
+
+```{r class.source = 'fold-show'}
+gb_wflow <- workflow() %>% 
+  add_recipe(model_rec,
+             blueprint = hardhat::default_recipe_blueprint(
+               allow_novel_levels = TRUE
+             )) %>% 
+  add_model(gb_spec)
+```
+
+Setting up a space-filling design grid for time-efficient hyperparameter tuning:
+
+```{r class.source = 'fold-show'}
+gb_grid <- 
+  grid_latin_hypercube(
+    tree_depth(),
+    min_n(),
+    loss_reduction(),
+    sample_size = sample_prop(),
+    finalize(mtry(), dt_train),
+    learn_rate(),
+    size = 30
+  )
+```
+
+Tuning the hyperparameters with parallel processing:
+
+```{r class.source = 'fold-show', eval=FALSE}
+# Gradient Boosting
+start_time = Sys.time()
+
+unregister_dopar <- function() {
+  env <- foreach:::.foreachGlobals
+  rm(list=ls(name=env), pos=env)
+}
+
+cl <- makePSOCKcluster(6)
+registerDoParallel(cl)
+
+gb_tune <- tune_grid(object = gb_wflow,
+                     resamples = folds,
+                     grid = gb_grid,
+                     control = control_grid(save_pred = TRUE,
+                                            save_workflow = TRUE))
+
+stopCluster(cl)
+unregister_dopar()
+
+end_time = Sys.time()
+end_time - start_time
+```
+
+```{r, echo=FALSE}
+# write_rds(gb_tune, "C:/Users/mathi/OneDrive/R/Data Visualisation/Used Cars Web Scraping/gb_tune.rds")
+
+gb_tune <- read_rds("C:/Users/mathi/OneDrive/R/Data Visualisation/Used Cars Web Scraping/gb_tune.rds")
+```
+
+Looking at the tuning results reveals that the model captures strong signal in the predictors, as the $R^2$ is fairly high. Though, as mentioned in the introduction, crucial variables are missing.
+
+```{r class.source = 'fold-show'}
+gb_tune %>% 
+  show_best(metric = "rsq") %>% 
+  transmute(model = "Gradient Boosting", .metric, mean, n, std_err)
+```
+
+Fitting the best model from training on the entire training data:
+
+```{r class.source = 'fold-show', eval=FALSE}
+gb_final_fit <- gb_wflow %>%
+  finalize_workflow(select_best(gb_tune, metric = "rmse")) %>% 
+  fit(dt_split)
+```
+
+```{r, echo=FALSE}
+# gb_fit <- gb_wflow %>%
+#   finalize_workflow(select_best(gb_tune, metric = "rsq")) %>%
+#   fit(dt_test)
+# 
+# library(bundle)
+# 
+# gb_bundle <- bundle(gb_fit)
+# 
+# write_rds(gb_bundle,
+#           "C:/Users/mathi/OneDrive/R/Data Visualisation/Used Cars Web Scraping/gb_bundle.rds")
+# 
+# write_rds(gb_bundle, "C:/Users/mathi/OneDrive/R/Shiny Apps/car_price_prediction_xgboost/gb_bundle.rds")
+
+gb_final_fit <- read_rds("C:/Users/mathi/OneDrive/R/Data Visualisation/Used Cars Web Scraping/gb_bundle.rds") %>% 
+  unbundle()
+```
+
+<br>
+
+***
+### Evaluating Model Performance On The Training Data
+***
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+gb_final_fit %>% 
+  augment(dt_test) %>% 
+  ggplot(aes(price_chf, .pred)) +
+  geom_point(alpha = 0.1, colour = "midnightblue") + 
+  geom_abline(colour = "grey50", lty = "dashed") +
+  labs(title = "Out-Of-Sample Fit",
+       subtitle = NULL,
+       y = "Prediction",
+       x = "Truth") +
+  scale_x_continuous(labels = comma_format(suffix = " CHF")) +
+  scale_y_continuous(labels = comma_format(suffix = " CHF")) +
+  theme_light() +
+  theme(plot.title = element_text(face = "bold", size = 12),
+        plot.subtitle = element_text(face = "italic", colour = "grey50"),
+        legend.position = "bottom")
+```
+
+```{r, dpi=300, fig.height=4.95, fig.width=8, warning=FALSE, message=FALSE}
+gb_final_fit %>% 
+  augment(dt_test) %>% 
+  select(brand, year, price_chf, .pred) %>% 
+  drop_na() %>% 
+  filter(year > 1990) %>% 
+  mutate(brand = fct_lump(brand, n = 11)) %>% 
+  ggplot(aes(price_chf/1000, .pred/1000, colour = year)) +
+  geom_point(alpha = 0.5, size = 0.1) +
+  geom_abline(colour = "grey50", lty = "dashed") +
+  facet_wrap(~ brand, scales = "free") +
+  labs(title = "Out-of-sample fit by brand",
+       subtitle = "",
+       y = "Prediction",
+       x = "Truth",
+       colour = "Construction Year") +
+  scale_x_continuous(labels = scales::comma_format(suffix = "k CHF")) +
+  scale_y_continuous(labels = scales::comma_format(suffix = "k CHF")) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+        plot.title = element_text(face = "bold", size = 12),
+        plot.subtitle = element_text(face = "italic", colour = "grey50"))
+```
+
+The final fit is not highly impressive, as expected with highly important information for used car prices. Also, it can be seen that the fit is better for some brands than others.
+
+This final model can be saved using the _bundle_ package (Silge, Couch, Yan & Kuhn, 2022) and then read into the Shiny application, where it can make predictions on new data. As you probably have seen, this is what I have done, so you can interact with the final model in the application right at the start of this blog post.
+
+I hope this has been interesting to you. In case of constructive feedback or if you want to exchange about this or a related topic, feel free to reach out. Thank you for reading.
+
+&nbsp;
+<hr />
+<p style="text-align: center;">A work by <a href="https://www.linkedin.com/in/mathias-steilen/">Mathias Steilen</a></p>
+&nbsp;
