@@ -370,15 +370,19 @@ To be written at the end of 2023...
 
 ***
 
-### Next Week: Coming up...
+### Week 21: Visualising Entry-Level Motorcycle Prices 
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | Swiss Used Motorcycle Platform |
+| **Goal** | This week's project happened on the basis of some private research on used motorcycle prices. In order to compare the models of interest, I want to scrape the data from a Swiss online platform and compare prices. |
+| **Keywords** | Web Scraping, Data Visualisation, `Timeouts`, HTTP Requests, `HTML` |
+| **Results** | In the chart below, the price premium for the well-known MT07 is clearly discernible. Of course, older bikes and bikes with more mileage get lower prices. Little fun fact: The final model that was bought was a 2021 CB 500 F in black. |
+| **Notebooks** | [R Script]() |
+
+<p align="center">
+  <img src="21 - Motorcycles/moto_viz.png" width="500" />
+</p>
 
 ***
 
