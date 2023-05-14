@@ -95,7 +95,7 @@ To be written at the end of 2023...
 | **Goal** | Scrape rent prices for all of Brussels from the website using the dynamic web scraping library `Selenium` and make it available for download. In a later week, train a model that uses tokenisation on the descriptions for price predictions. |
 | **Keywords** | Dynamic Web Scraping, `HTML`,  `Selenium`, `RSelenium`, Data Cleaning |
 | **Results** | The scraped data set encompasses 3,477 listings and has 109 columns. It is available for download on [Kaggle](https://www.kaggle.com/datasets/mathiassteilen/monthly-rent-of-rented-flats-in-brussels). |
-| **Notebooks** | [R Script]() |
+| **Notebooks** | [R Script](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/05%20-%20Brussels%20Rent%20Prices/Selenium.R) |
 
 <p align="center">
   <img src="05 - Brussels Rent Prices/Kaggle Picture.png" width="500" />
@@ -249,7 +249,7 @@ To be written at the end of 2023...
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | [Open AI Gym]() |
+| **Data Source** | [Open AI Gym](https://gymnasium.farama.org/) |
 | **Goal** | I want to train an agent (ANN with one hidden layer) to play Cartpole, i.e. to learn to balance the pole by itself. For this, I will use the Cross Entropy Method. The method will be implemented without higher level libraries, except for PyTorch. |
 | **Keywords** | Reinforcement Learning, `PyTorch`, Artificial Neural Network, Cross Entropy Method, Loss Function, Exploration, Exploitation, `gym` |
 | **Results** | The Cross Entropy Method uses an ANN like in a classification setting. Inputs are observations and outputs are the probabilities of certain actions given the inputs. The actions are then sampled according to the probabilities of the ANN, which enables exploration vs. exploitation. After a batch, i.e. a certain number of episodes, all episodes with a reward smaller than some percentile are discarded. In other words, the episodes from the batch that worked out best for the agent are kept and the data (input observations made, output subsequent actions taken) are used as a batch to compute a loss and optimise the ANN's weights. Iteratively, for a number of batches (which each contain a number of episodes which each contain a number of steps, observations, actions and rewards), the model is trained on the top percentiles of the batches, in turn getting better and better at mapping observations to a desirable policy. |
@@ -266,7 +266,7 @@ To be written at the end of 2023...
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | [Open AI Gym]() |
+| **Data Source** | [Open AI Gym](https://gymnasium.farama.org/) |
 | **Goal** | I want to train an agent to play FrozenLake, i.e. to learn to cross a lake and get to the gift itself. For this, I will use the tabular value iteration method. |
 | **Keywords** | Reinforcement Learning, Transition Probabilities, Value Iteration, Loss Function, Exploration, Exploitation, `gym` |
 | **Results** | The value iteration method stores state values in a table (first picture below) that are iteratively recomputed using the Bellman update while getting new information about rewards from the environment through experience. Experience is gathered from random runs through the environment. The value of a state is the expected future total reward (from discounted individual step rewards) from that state. For FrozenLake, the value iteration works very fast (less than 30 seconds) and finds the optimal solution even for a larger environment that I custom-made to be entirely solvable, despite the agent slipping 2/3s of the time (second picture below). |
@@ -283,11 +283,11 @@ To be written at the end of 2023...
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | [Open AI Gym]() |
+| **Data Source** | [Open AI Gym](https://gymnasium.farama.org/) |
 | **Goal** | I want to train an agent to play FrozenLake, i.e. to learn to cross a lake and get to the gift itself. For this, I will use the tabular Q-Learning method. |
 | **Keywords** | Reinforcement Learning, Transition Probabilities, Value Iteration, Loss Function, Exploration, Exploitation, `gym` |
 | **Results** | Tabular Q-learning is a model-free reinforcement learning algorithm that learns an optimal policy by iteratively updating Q-values for state-action pairs. The Q-values are updated using the Bellman equation, which combines the observed reward with the maximum expected future reward from the next state-action pair. Transition probabilities are frequentist, i.e. they are deducted from experience. By repeated exploration and exploitation, Q-learning hopefully converges to the optimal Q-values, allowing the agent to select actions that maximize its expected return. For FrozenLake, tabular Q-learning took a bit longer than value iteration, but finds the optimal solution even for the larger environment like before, too. The picture below shows how we are now dealing with state-action pair values (Q-values) instead of state values. The trained agent has a win rate a little lower than 3/4, which is pretty good for a non-deterministic environment which can be failed with a little bit of bad luck. |
-| **Notebooks** | [Python]() |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/16%20-%20RL%20Tabular%20Q-Learning/FrozenLake%20Tabular%20Q-Learning.ipynb) |
 
 <p align="center">
   <img src="16 - RL Tabular Q-Learning/state_action_values.png" width="500" />
@@ -300,11 +300,11 @@ To be written at the end of 2023...
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | [Open AI Gym]() |
+| **Data Source** | [Open AI Gym](https://gymnasium.farama.org/) |
 | **Goal** | I want to train an agent to land a spacecraft in a toy environment, i.e. to play OpenAI Gym's Lunar Lander. For this, I will use the DQN method. The method will be implemented without higher level libraries, except for PyTorch. |
 | **Keywords** | Reinforcement Learning, `PyTorch`, Feed Forward Neural Network, Value Iteration, Loss Function, Exploration, Exploitation, `gym` |
 | **Results** | Deep Q-Network (DQN) is a reinforcement learning algorithm that combines Q-learning with deep neural networks to handle high-dimensional state spaces. DQN employs an epsilon-greedy strategy for action selection, balancing exploration and exploitation. During training, the agent interacts with the environment, and the neural network approximates the Q-values for different state-action pairs. Initially, the agent explores the environment with a higher probability of selecting random actions (epsilon). As training progresses, epsilon is gradually decreased, shifting the agent towards exploiting the learned Q-values. This way, DQN achieves a balance between exploring new actions and exploiting the current knowledge to learn an optimal policy. For this lunar lander case, the training progress took about 40 minutes on a laptop with an i5 processor, which is a bit longer than previous toy examples. However, it does not come as a surprise given the amount of forwards and backward passes required in the neural net. |
-| **Notebooks** | [Python]() |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/17%20-%20RL%20DQN/Moonlander%20DQN.ipynb) |
 
 <p align="center">
   <img src="17 - RL DQN/trained lander.gif" width="250" />
@@ -314,46 +314,59 @@ To be written at the end of 2023...
 
 ***
 
-### Week 17: Playing CartPole with Advantage Actor Critic (Reinforcement Learning) 🤖🧑‍🚀
+### Week 18: Playing CartPole with Advantage Actor Critic (Reinforcement Learning) 🤖🧑‍🚀
 
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | [Open AI Gym]() |
+| **Data Source** | [Open AI Gym](https://gymnasium.farama.org/) |
 | **Goal** | Shifting away from value learning, I want to turn to policy gradients and train an agent (A2C neural network with common body and two heads) to play Cartpole, i.e. to learn to balance the pole by itself. For this, I will use the Advantage Actor Critic method with entropy bonus. The method will be implemented without higher level libraries, except for PyTorch. |
 | **Keywords** | Reinforcement Learning, `PyTorch`, Feed Forward Neural Network, Value Iteration, Loss Function, Exploration, Exploitation, `gym` |
 | **Results** | The Advantage Actor Critic (A2C) method with an entropy bonus is a reinforcement learning algorithm that combines elements of policy-based and value-based methods. It uses an actor network to estimate the policy, determining the probabilities of selecting different actions based on the current state, and a critic network to estimate the state value function. The advantage function, which represents the advantage of taking a specific action in a given state compared to the average value of that state, is also calculated. The entropy bonus, which encourages exploration by "rewarding" the actor for being unsure about a certain action, is added to the actor's loss function to increase the policy's stochasticity. The flow diagram below shows the training process without entropy bonus. Additionally, you can see the training process for two runs, during the second of which the agent's performance inexplicably plummeted, which I found quite surprising. |
-| **Notebooks** | [Python]() |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/18%20-%20RL%20A2C/Cartpole%20A2C%20with%20entropy%20bonus.ipynb) |
 
 <p align="center">
-  <img src="18 - RL A2C/A2C Visualisation.png" width="500" />
-  <img src="18 - RL A2C/training_process.png" width="250" />
-  <img src="18 - RL A2C/Instability A2C.png" width="250" />
+  <img src="18 - RL A2C/A2C Visualisation.png" width="750" />
+  <img src="18 - RL A2C/training_process.png" width="375" />
+  <img src="18 - RL A2C/Instability A2C.png" width="375" />
 </p>
 
 ***
 
-### Next Week: Coming up...
+### Week 19: Visualising Rent Prices in Bern, Switzerland 🏠💶
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | Websites of two major Swiss real estate platforms |
+| **Goal** | Scrape rent prices for all of Switzerland from the websites using the dynamic web scraping library `Selenium` and the static `rvest` and visualise the results. |
+| **Keywords** | Dynamic Web Scraping, `HTML`,  `rvest`, `RSelenium`, Data Cleaning, Data Visualisation |
+| **Results** | There are very strong differences in rent prices between Swiss cities and even within Bern itself. |
+| **Notebooks** | [R Script]() |
+
+<p align="center">
+  <img src="19 - Housing Bern/SwissRent.png" width="500" />
+  <img src="19 - Housing Bern/BernRent.png" width="500" />
+</p>
 
 ***
 
-### Next Week: Coming up...
+### Week 20: Velo Zurich 🚲🇨🇭
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | [Zurich Open Data](https://data.stadt-zuerich.ch/) |
+| **Goal** | On my way to work, I noticed bike counting stations in many locations in Bern, which led me on a quest of finding the data that they collect. |
+| **Keywords** | Data Visualisation, `ggplot2` |
+| **Results** | Unfortunately, I didn't find the data for Bern, but there were years and years of data available from Zurich, so I'm going to share my findings of patterns below. |
+| **Notebooks** | [R Script]() |
+
+<p align="center">
+  <img src="20 - Velo Zurich/velo_barometer.jpg" width="250" />
+  <img src="20 - Velo Zurich/week_dist.png" width="500" />
+  <img src="20 - Velo Zurich/hour_dist.png" width="500" />
+  <img src="20 - Velo Zurich/hour_distnormalised.png" width="500" />
+  <img src="20 - Velo Zurich/weekday_dist.png" width="500" />
+</p>
 
 ***
 
