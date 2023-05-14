@@ -1,0 +1,71 @@
+﻿DATAFLOW,SPECIFICATION: Specification,FREQ: Frequency,TIME_PERIOD: Time period,OBS_VALUE,NOTE_YEAR_2: Note year 2,NOTE_YEAR_1: Note year 1,NOTE_SPECIFICATION_2: Note specification 2,NOTE_SPECIFICATION_1: Note specification 1,OBS_STATUS: Observation status,DECIMALS: Decimals
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2008,0.081,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2009,0.081,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2010,0.083,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2011,0.096,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2012,0.106,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2013,0.107,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2014,0.099,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2015,0.095,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2016,0.088,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2017,0.083,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2018,0.086,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2019,0.087,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2020,0.082,,,,,,3: Three
+LU1:DF_A4507(1.0),SL05: Heat by district,A: Annual,2021,0.09,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2008,0.069,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2009,0.045,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2010,0.058,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2011,0.074,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2012,0.082,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2013,0.077,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2014,0.071,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2015,0.054,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2016,0.046,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2017,0.054,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2018,0.064,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2019,0.063,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2020,0.044,,,,,,3: Three
+LU1:DF_A4507(1.0),SL01: Heating gasoil,A: Annual,2021,0.066,,,,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2008,0.053,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2009,0.045,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2010,0.044,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2011,0.054,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2012,0.058,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2013,0.059,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2014,0.052,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2015,0.048,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2016,0.043,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2017,0.041,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2018,0.043,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2019,0.043,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2020,0.039,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL02: Natural gas,A: Annual,2021,0.053,,,SL02: Definitions: Natural gas,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2008,,,,,,-: nil,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2009,,,,,,-: nil,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2010,,,,,,-: nil,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2011,,,,,,-: nil,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2012,0.048,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2013,0.052,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2014,0.053,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2015,0.05,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2016,0.05,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2017,0.052,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2018,0.056,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2019,0.059,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2020,0.059,,,,,,3: Three
+LU1:DF_A4507(1.0),SL03: Woodfuel,A: Annual,2021,0.061,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2008,,,,,,-: nil,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2009,,,,,,-: nil,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2010,,,,,,-: nil,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2011,,,,,,-: nil,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2012,0.056,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2013,0.059,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2014,0.058,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2015,0.056,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2016,0.056,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2017,0.061,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2018,0.065,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2019,0.067,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2020,0.067,,,,,,3: Three
+LU1:DF_A4507(1.0),SL04: Pellets,A: Annual,2021,0.069,,,,,,3: Three

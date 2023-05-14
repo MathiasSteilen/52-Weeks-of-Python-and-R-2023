@@ -1,0 +1,1921 @@
+﻿DATAFLOW,PRICE: Price,FREQ: Frequency,TIME_PERIOD: Time period,OBS_VALUE,NOTE_QUARTER_2: Note quarter 2,NOTE_QUARTER_1: Note quarter 1,NOTE_PRICE_2: Note Price 2,NOTE_PRICE_1: Note Price 1,OBS_STATUS: Observation status,DECIMALS: Decimals
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2007,0.146,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2008,0.1535625,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2009,0.1349,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2010,0.152,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2011,0.168,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2012,0.18,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2013,0.174,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2014,0.1675,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2015,0.171,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2016,0.159,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2017,0.169,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2018,0.17725,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2019,0.185,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2020,0.156,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2021,0.193,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2022,0.244,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2007-Q1,0.442,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2007-Q2,0.545,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2007-Q3,0.526,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2007-Q4,0.541,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2008-Q1,0.56,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2008-Q2,0.636,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2008-Q3,0.639,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2008-Q4,0.413,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2009-Q1,0.365,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2009-Q2,0.461,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2009-Q3,0.464,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2009-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2010-Q1,0.537,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2010-Q2,0.56,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2010-Q3,0.532,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2010-Q4,0.568,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2011-Q1,0.629,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2011-Q2,0.679,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2011-Q3,0.672,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2011-Q4,0.65,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2012-Q1,0.745,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2012-Q2,0.729,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2012-Q3,0.772,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2012-Q4,0.715,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2013-Q1,0.721,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2013-Q2,0.698,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2013-Q3,0.715,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2013-Q4,0.663,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2014-Q1,0.666,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2014-Q2,0.677,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2014-Q3,0.692,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2014-Q4,0.584,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2015-Q1,0.507,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2015-Q2,0.607,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2015-Q3,0.566,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2015-Q4,0.485,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2016-Q1,0.423,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2016-Q2,0.485,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2016-Q3,0.471,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2016-Q4,0.51,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2017-Q1,0.543,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2017-Q2,0.526,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2017-Q3,0.512,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2017-Q4,0.539,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2018-Q1,0.536,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2018-Q2,0.595,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2018-Q3,0.625,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2018-Q4,0.559,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2019-Q1,0.52,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2019-Q2,0.606,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2019-Q3,0.579,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2019-Q4,0.563,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2020-Q1,0.521,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2020-Q2,0.366,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2020-Q3,0.461,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2020-Q4,0.441,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2021-Q1,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2021-Q2,0.588,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2021-Q3,0.641,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2021-Q4,0.73,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2022-Q1,0.827,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2022-Q2,1.088,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2022-Q3,0.937,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,Q: Quarterly,2022-Q4,0.849,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2007,0.53,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2008,0.5775,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2009,0.4563,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2010,0.573,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2011,0.684,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2012,0.77,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2013,0.746,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2014,0.7015,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2015,0.596,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2016,0.525,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2017,0.584,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2018,0.629,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2019,0.576,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2020,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2021,0.684,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2022,1.076,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2007,1.122,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2008,1.1775625,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2009,1.0349,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2010,1.163,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2011,1.2875,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2012,1.382,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2013,1.335,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2014,1.28425,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2015,1.174,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2016,1.093,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2017,1.161,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2018,1.218,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2019,1.275,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2020,1.075,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2021,1.328,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2022,1.677,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2007-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2007-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2007-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2007-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2008-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2008-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2008-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2008-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2009-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2009-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2009-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2009-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2010-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2010-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2010-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2010-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2011-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2011-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2011-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2011-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2012-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2012-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2012-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2012-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2013-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2013-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2013-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2013-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2014-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2014-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2014-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2014-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2015-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2015-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2015-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2015-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2016-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2016-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2016-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2016-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2017-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2017-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2017-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2017-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2018-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2018-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2018-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2018-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2019-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2019-Q2,0.469,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2019-Q3,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2019-Q4,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2020-Q1,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2020-Q2,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2020-Q3,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2020-Q4,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2021-Q1,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2021-Q2,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2021-Q3,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2021-Q4,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2022-Q1,0.527,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2022-Q2,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2022-Q3,0.506,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,Q: Quarterly,2022-Q4,0.527,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2007-Q1,0.137,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2007-Q2,0.153,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2007-Q3,0.152,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2007-Q4,0.153,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2008-Q1,0.155,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2008-Q2,0.168,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2008-Q3,0.167,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2008-Q4,0.13395,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2009-Q1,0.12645,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2009-Q2,0.14145,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2009-Q3,0.142,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2009-Q4,0.141,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2010-Q1,0.153,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2010-Q2,0.157,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2010-Q3,0.153,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2010-Q4,0.157,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2011-Q1,0.167,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2011-Q2,0.176,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2011-Q3,0.175,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2011-Q4,0.17,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2012-Q1,0.184,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2012-Q2,0.18345,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2012-Q3,0.19,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2012-Q4,0.182,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2013-Q1,0.184,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2013-Q2,0.182,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2013-Q3,0.1847,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2013-Q4,0.176,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2014-Q1,0.174,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2014-Q2,0.181,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2014-Q3,0.179,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2014-Q4,0.164,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2015-Q1,0.174,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2015-Q2,0.19,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2015-Q3,0.185,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2015-Q4,0.17,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2016-Q1,0.158,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2016-Q2,0.171,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2016-Q3,0.168,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2016-Q4,0.175,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2017-Q1,0.18,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2017-Q2,0.177,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2017-Q3,0.174,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2017-Q4,0.179,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2018-Q1,0.178,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2018-Q2,0.188,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2018-Q3,0.193,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2018-Q4,0.183,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2019-Q1,0.179,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2019-Q2,0.194,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2019-Q3,0.188,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2019-Q4,0.186,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2020-Q1,0.182,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2020-Q2,0.155,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2020-Q3,0.17,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2020-Q4,0.165,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2021-Q1,0.185,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2021-Q2,0.198,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2021-Q3,0.21,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2021-Q4,0.223,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2022-Q1,0.243,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2022-Q2,0.288,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2022-Q3,0.279,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,Q: Quarterly,2022-Q4,0.268,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2007-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2007-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2007-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2007-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2008-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2008-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2008-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2008-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2009-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2009-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2009-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2009-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2010-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2010-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2010-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2010-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2011-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2011-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2011-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2011-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2012-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2012-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2012-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2012-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2013-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2013-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2013-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2013-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2014-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2014-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2014-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2014-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2015-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2015-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2015-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2015-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2016-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2016-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2016-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2016-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2017-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2017-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2017-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2017-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2018-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2018-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2018-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2018-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2019-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2019-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2019-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2019-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2020-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2020-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2020-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2020-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2021-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2021-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2021-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2021-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2022-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2022-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2022-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,Q: Quarterly,2022-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2007,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2008,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2009,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2010,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2011,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2012,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2013,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2014,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2015,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2016,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2017,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2018,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2019,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2020,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2021,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2022,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2007-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2007-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2007-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2007-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2008-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2008-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2008-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2008-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2009-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2009-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2009-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2009-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2010-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2010-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2010-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2010-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2011-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2011-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2011-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2011-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2012-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2012-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2012-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2012-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2013-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2013-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2013-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2013-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2014-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2014-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2014-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2014-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2015-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2015-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2015-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2015-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2016-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2016-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2016-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2016-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2017-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2017-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2017-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2017-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2018-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2018-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2018-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2018-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2019-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2019-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2019-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2019-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2020-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2020-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2020-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2020-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2021-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2021-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2021-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2021-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2022-Q1,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2022-Q2,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2022-Q3,,,,,,,3: Three
+LU1:DF_A4504(1.0),L01: Unleaded gasoline 95 octane,Q: Quarterly,2022-Q4,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2007,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2008,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2009,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2010,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2011,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2012,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2013,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2014,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2015,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2016,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2017,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2018,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2019,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2020,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2021,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2022,,,,,,,3: Three
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),L02: Unleaded gasoline 98 octane,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2007,0.514,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2008,0.562,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2009,0.438,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2010,0.549,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2011,0.658,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2012,0.74,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2013,0.699,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2014,0.65475,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2015,0.541,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2016,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2017,0.53,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2018,0.579,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2019,0.621,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2020,0.447,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2021,0.619,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2022,0.925,,,,,,3: Three
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL01: Price without taxes and excises,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2007-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2007-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2007-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2007-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2008-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2008-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2008-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2008-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2009-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2009-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2009-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2009-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2010-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2010-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2010-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2010-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2011-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2011-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2011-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2011-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2012-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2012-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2012-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2012-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2013-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2013-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2013-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2013-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2014-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2014-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2014-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2014-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2015-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2015-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2015-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2015-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2016-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2016-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2016-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2016-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2017-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2017-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2017-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2017-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2018-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2018-Q2,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2018-Q3,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2018-Q4,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2019-Q1,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2019-Q2,0.469,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2019-Q3,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2019-Q4,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2020-Q1,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2020-Q2,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2020-Q3,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2020-Q4,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2021-Q1,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2021-Q2,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2021-Q3,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2021-Q4,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2022-Q1,0.527,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2022-Q2,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2022-Q3,0.506,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,Q: Quarterly,2022-Q4,0.527,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2007,0.608,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2008,0.6155625,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2009,0.5969,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2010,0.614,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2011,0.63,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2012,0.642,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2013,0.636,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2014,0.6295,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2015,0.633,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2016,0.621,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2017,0.631,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2018,0.63925,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2019,0.654,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2020,0.628,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2021,0.709,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2022,0.752,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2007-Q1,1.04,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2007-Q2,1.158,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2007-Q3,1.136,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2007-Q4,1.153,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2008-Q1,1.175,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2008-Q2,1.263,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2008-Q3,1.266,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2008-Q4,1.00625,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2009-Q1,0.95105,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2009-Q2,1.06145,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2009-Q3,1.065,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2009-Q4,1.062,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2010-Q1,1.149,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2010-Q2,1.175,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2010-Q3,1.143,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2010-Q4,1.185,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2011-Q1,1.255,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2011-Q2,1.312,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2011-Q3,1.304,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2011-Q4,1.279,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2012-Q1,1.388,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2012-Q2,1.36965,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2012-Q3,1.419,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2012-Q4,1.354,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2013-Q1,1.361,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2013-Q2,1.334,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2013-Q3,1.354,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2013-Q4,1.294,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2014-Q1,1.297,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2014-Q2,1.31,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2014-Q3,1.327,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2014-Q4,1.203,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2015-Q1,1.134,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2015-Q2,1.251,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2015-Q3,1.203,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2015-Q4,1.108,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2016-Q1,1.035,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2016-Q2,1.108,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2016-Q3,1.091,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2016-Q4,1.137,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2017-Q1,1.176,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2017-Q2,1.156,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2017-Q3,1.14,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2017-Q4,1.171,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2018-Q1,1.168,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2018-Q2,1.237,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2018-Q3,1.272,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2018-Q4,1.195,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2019-Q1,1.149,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2019-Q2,1.258,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2019-Q3,1.23,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2019-Q4,1.211,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2020-Q1,1.162,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2020-Q2,0.981,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2020-Q3,1.092,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2020-Q4,1.068,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2021-Q1,1.208,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2021-Q2,1.292,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2021-Q3,1.355,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2021-Q4,1.458,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2022-Q1,1.584,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2022-Q2,1.824,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2022-Q3,1.688,,,,,,3: Three
+LU1:DF_A4504(1.0),SL03: Price with taxes and excises,Q: Quarterly,2022-Q4,1.61,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2007-Q1,0.598,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2007-Q2,0.613,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2007-Q3,0.61,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2007-Q4,0.612,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2008-Q1,0.615,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2008-Q2,0.627,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2008-Q3,0.627,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2008-Q4,0.59325,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2009-Q1,0.58605,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2009-Q2,0.60045,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2009-Q3,0.601,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2009-Q4,0.6,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2010-Q1,0.612,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2010-Q2,0.615,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2010-Q3,0.611,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2010-Q4,0.617,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2011-Q1,0.626,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2011-Q2,0.633,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2011-Q3,0.632,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2011-Q4,0.629,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2012-Q1,0.643,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2012-Q2,0.64065,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2012-Q3,0.647,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2012-Q4,0.639,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2013-Q1,0.64,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2013-Q2,0.636,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2013-Q3,0.639,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2013-Q4,0.631,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2014-Q1,0.631,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2014-Q2,0.633,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2014-Q3,0.635,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2014-Q4,0.619,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2015-Q1,0.627,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2015-Q2,0.644,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2015-Q3,0.637,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2015-Q4,0.623,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2016-Q1,0.613,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2016-Q2,0.623,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2016-Q3,0.621,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2016-Q4,0.627,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2017-Q1,0.633,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2017-Q2,0.63,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2017-Q3,0.628,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2017-Q4,0.632,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2018-Q1,0.632,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2018-Q2,0.642,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2018-Q3,0.647,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2018-Q4,0.636,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2019-Q1,0.629,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2019-Q2,0.652,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2019-Q3,0.651,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2019-Q4,0.648,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2020-Q1,0.641,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2020-Q2,0.615,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2020-Q3,0.631,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2020-Q4,0.627,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2021-Q1,0.692,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2021-Q2,0.704,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2021-Q3,0.713,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2021-Q4,0.728,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2022-Q1,0.757,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2022-Q2,0.737,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2022-Q3,0.751,,,,,,3: Three
+LU1:DF_A4504(1.0),SL02: Taxes and excises,Q: Quarterly,2022-Q4,0.761,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2007,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2008,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2009,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2010,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2011,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2012,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2013,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2014,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2015,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2016,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2017,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2018,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2019,0.469,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2020,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2021,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2022,0.508,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL03: Excises,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2007,0.149,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2008,0.1559,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2009,0.1377,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2010,0.155,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2011,0.172,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2012,0.185,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2013,0.181,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2014,0.1745,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2015,0.18,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2016,0.168,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2017,0.178,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2018,0.186,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2019,0.178,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2020,0.168,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2021,0.204,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2022,0.269,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL04: VAT,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2007-Q1,0.136,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2007-Q2,0.151,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2007-Q3,0.148,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2007-Q4,0.15,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2008-Q1,0.153,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2008-Q2,0.165,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2008-Q3,0.165,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2008-Q4,0.13125,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2009-Q1,0.12405,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2009-Q2,0.13845,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2009-Q3,0.139,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2009-Q4,0.138,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2010-Q1,0.15,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2010-Q2,0.153,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2010-Q3,0.149,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2010-Q4,0.155,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2011-Q1,0.164,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2011-Q2,0.171,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2011-Q3,0.17,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2011-Q4,0.167,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2012-Q1,0.181,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2012-Q2,0.17865,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2012-Q3,0.185,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2012-Q4,0.177,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2013-Q1,0.178,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2013-Q2,0.174,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2013-Q3,0.177,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2013-Q4,0.169,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2014-Q1,0.169,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2014-Q2,0.171,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2014-Q3,0.173,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2014-Q4,0.157,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2015-Q1,0.165,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2015-Q2,0.182,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2015-Q3,0.175,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2015-Q4,0.161,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2016-Q1,0.15,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2016-Q2,0.161,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2016-Q3,0.159,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2016-Q4,0.165,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2017-Q1,0.171,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2017-Q2,0.168,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2017-Q3,0.166,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2017-Q4,0.17,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2018-Q1,0.17,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2018-Q2,0.18,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2018-Q3,0.185,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2018-Q4,0.174,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2019-Q1,0.167,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2019-Q2,0.183,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2019-Q3,0.179,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2019-Q4,0.176,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2020-Q1,0.169,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2020-Q2,0.142,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2020-Q3,0.159,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2020-Q4,0.155,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2021-Q1,0.175,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2021-Q2,0.188,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2021-Q3,0.197,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2021-Q4,0.212,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2022-Q1,0.23,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2022-Q2,0.265,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2022-Q3,0.245,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL02: VAT,Q: Quarterly,2022-Q4,0.234,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2007-Q1,0.454,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2007-Q2,0.558,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2007-Q3,0.552,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2007-Q4,0.557,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2008-Q1,0.571,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2008-Q2,0.655,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2008-Q3,0.653,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2008-Q4,0.431,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2009-Q1,0.381,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2009-Q2,0.481,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2009-Q3,0.482,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2009-Q4,0.481,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2010-Q1,0.559,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2010-Q2,0.583,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2010-Q3,0.557,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2010-Q4,0.591,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2011-Q1,0.65,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2011-Q2,0.708,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2011-Q3,0.704,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2011-Q4,0.674,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2012-Q1,0.764,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2012-Q2,0.761,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2012-Q3,0.806,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2012-Q4,0.749,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2013-Q1,0.763,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2013-Q2,0.75,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2013-Q3,0.763,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2013-Q4,0.709,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2014-Q1,0.698,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2014-Q2,0.744,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2014-Q3,0.732,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2014-Q4,0.632,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2015-Q1,0.562,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2015-Q2,0.657,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2015-Q3,0.629,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2015-Q4,0.537,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2016-Q1,0.469,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2016-Q2,0.542,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2016-Q3,0.524,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2016-Q4,0.565,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2017-Q1,0.599,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2017-Q2,0.582,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2017-Q3,0.564,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2017-Q4,0.59,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2018-Q1,0.584,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2018-Q2,0.644,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2018-Q3,0.672,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2018-Q4,0.614,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2019-Q1,0.592,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2019-Q2,0.674,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2019-Q3,0.633,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2019-Q4,0.622,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2020-Q1,0.6,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2020-Q2,0.441,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2020-Q3,0.525,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2020-Q4,0.498,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2021-Q1,0.573,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2021-Q2,0.547,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2021-Q3,0.716,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2021-Q4,0.798,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2022-Q1,0.9,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2022-Q2,1.223,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2022-Q3,1.133,,,,,,3: Three
+LU1:DF_A4504(1.0),SL04: Prices without taxes and excises,Q: Quarterly,2022-Q4,1.046,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2007,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2008,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2009,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2010,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2011,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2012,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2013,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2014,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2015,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2016,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2017,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2018,0.462,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2019,0.469,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2020,0.472,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2021,0.516,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2022,0.508,,,,,,3: Three
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SSL01: Excises,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2007,0.611,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2008,0.6179,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2009,0.5997,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2010,0.617,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2011,0.634,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2012,0.647,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2013,0.643,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2014,0.6365,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2015,0.642,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2016,0.63,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2017,0.64,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2018,0.648,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2019,0.647,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2020,0.64,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2021,0.72,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2022,0.777,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2007,1.141,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2007-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2007-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2007-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2007-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2008,1.1954,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2008-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2008-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2008-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2008-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2009,1.056,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2009-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2009-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2009-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2009-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2010,0.19,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2010-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2010-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2010-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2010-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2011,1.318,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2011-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2011-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2011-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2011-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2012,1.417,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2012-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2012-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2012-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2012-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2013,1.389,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2013-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2013-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2013-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2013-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2014,1.338,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2014-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2014-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2014-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2014-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2015,1.238,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2015-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2015-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2015-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2015-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2016,1.155,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2016-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2016-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2016-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2016-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2017,1.224,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2017-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2017-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2017-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2017-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2018,1.276,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2018-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2018-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2018-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2018-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2019,1.223,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2019-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2019-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2019-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2019-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2020,1.156,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2020-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2020-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2020-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2020-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2021,1.404,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2021-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2021-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2021-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2021-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2022,1.853,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2022-Q1,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2022-Q2,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2022-Q3,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,A: Annual,2022-Q4,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2007-Q1,0.599,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2007-Q2,0.615,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2007-Q3,0.614,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2007-Q4,0.615,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2008-Q1,0.617,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2008-Q2,0.63,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2008-Q3,0.629,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2008-Q4,0.59595,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2009-Q1,0.58845,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2009-Q2,0.60345,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2009-Q3,0.604,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2009-Q4,0.603,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2010-Q1,0.615,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2010-Q2,0.619,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2010-Q3,0.615,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2010-Q4,0.619,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2011-Q1,0.629,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2011-Q2,0.638,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2011-Q3,0.637,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2011-Q4,0.632,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2012-Q1,0.646,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2012-Q2,0.64545,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2012-Q3,0.652,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2012-Q4,0.644,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2013-Q1,0.646,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2013-Q2,0.644,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2013-Q3,0.646,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2013-Q4,0.638,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2014-Q1,0.636,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2014-Q2,0.643,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2014-Q3,0.641,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2014-Q4,0.626,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2015-Q1,0.636,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2015-Q2,0.652,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2015-Q3,0.648,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2015-Q4,0.632,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2016-Q1,0.62,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2016-Q2,0.633,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2016-Q3,0.63,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2016-Q4,0.637,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2017-Q1,0.643,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2017-Q2,0.639,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2017-Q3,0.636,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2017-Q4,0.641,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2018-Q1,0.64,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2018-Q2,0.65,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2018-Q3,0.655,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2018-Q4,0.645,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2019-Q1,0.641,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2019-Q2,0.663,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2019-Q3,0.66,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2019-Q4,0.658,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2020-Q1,0.654,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2020-Q2,0.627,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2020-Q3,0.642,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2020-Q4,0.637,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2021-Q1,0.701,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2021-Q2,0.714,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2021-Q3,0.726,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2021-Q4,0.739,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2022-Q1,0.77,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2022-Q2,0.76,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2022-Q3,0.785,,,,,,3: Three
+LU1:DF_A4504(1.0),SL05: Taxes and excises,Q: Quarterly,2022-Q4,0.795,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2007,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2007-Q1,1.053,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2007-Q2,1.173,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2007-Q3,1.166,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2007-Q4,1.172,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2008,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2008-Q1,1.188,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2008-Q2,1.285,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2008-Q3,1.282,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2008-Q4,1.02695,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2009,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2009-Q1,0.96945,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2009-Q2,1.08445,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2009-Q3,1.086,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2009-Q4,1.084,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2010,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2010-Q1,1.174,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2010-Q2,1.202,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2010-Q3,1.172,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2010-Q4,1.21,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2011,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2011-Q1,1.279,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2011-Q2,1.346,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2011-Q3,1.341,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2011-Q4,1.306,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2012,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2012-Q1,1.41,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2012-Q2,1.40645,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2012-Q3,1.458,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2012-Q4,1.393,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2013,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2013-Q1,1.409,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2013-Q2,1.393,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2013-Q3,1.409,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2013-Q4,1.347,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2014,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2014-Q1,1.334,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2014-Q2,1.387,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2014-Q3,1.373,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2014-Q4,1.258,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2015,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2015-Q1,1.198,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2015-Q2,1.31,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2015-Q3,1.276,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2015-Q4,1.169,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2016,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2016-Q1,1.09,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2016-Q2,1.175,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2016-Q3,1.154,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2016-Q4,1.202,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2017,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2017-Q1,1.242,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2017-Q2,1.221,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2017-Q3,1.2,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2017-Q4,1.231,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2018,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2018-Q1,1.224,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2018-Q2,1.294,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2018-Q3,1.327,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2018-Q4,1.258,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2019,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2019-Q1,1.233,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2019-Q2,1.337,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2019-Q3,1.293,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2019-Q4,1.28,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2020,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2020-Q1,1.254,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2020-Q2,1.068,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2020-Q3,1.167,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2020-Q4,1.135,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2021,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2021-Q1,1.274,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2021-Q2,1.361,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2021-Q3,1.442,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2021-Q4,1.537,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2022,,,,,,,
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2022-Q1,1.67,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2022-Q2,1.983,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2022-Q3,1.918,,,,,,3: Three
+LU1:DF_A4504(1.0),SL06: Price with taxes and excises,Q: Quarterly,2022-Q4,1.841,,,,,,3: Three

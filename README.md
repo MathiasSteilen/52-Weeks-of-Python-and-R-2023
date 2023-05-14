@@ -228,7 +228,58 @@ To be written at the end of 2023...
 
 ***
 
-### Week 13: Image Classification - Detecting Cracks in Concrete
+### Week 13: 2023 Easter Weather
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | [Swiss National Basic Climatological Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) |
+| **Goal** | Initially, I wanted to do image classification, but started an internship, which caught up most of my time. During Easter I thought it was unusually cold, so this week, I'll check this assumption. |
+| **Keywords** | Data Visualisation, `ggplot2`, Nested `dataframe`, `pandas`, `tidyverse`, `Boxplots` |
+| **Results** | I used `pandas` to download the csv data into a nested dataframe (using dictionaries) for each weather station. Additionally, I used the `holidays` package to make out the dates of Easter since 1960. After some cleaning and extracting the data from its nested form, I then proceeded to experiment with some charts in `ggplot2` in R and decided on the final product below. The conclusion: Not only was I wrong in thinking that it was extraordinarily cold, I also did not notice how lucky we got with the sunshine. |
+| **Notebooks** | [Python](), [R]() |
+
+<p align="center">
+  <img src="13 - Easter Weather/R.png" width="500" />
+  <img src="13 - Easter Weather/Python.png" width="500" />
+</p>
+
+***
+
+### Week 14: Playing Cartpole with the Cross Entropy Method (Reinforcement Learning) 🤖🎮
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | [Open AI Gym]() |
+| **Goal** | I want to train an agent (ANN with one hidden layer) to play Cartpole, i.e. to learn to balance the pole by itself. For this, I will use the Cross Entropy Method. |
+| **Keywords** | Reinforcement Learning, `PyTorch`, Artificial Neural Network, Cross Entropy Method, Loss Function, Exploration, Exploitation, `gym` |
+| **Results** | The Cross Entropy Method uses an ANN like in a classification setting. Inputs are observations and outputs are the probabilities of certain actions given the inputs. The actions are then sampled according to the probabilities of the ANN, which enables exploration vs. exploitation. After a batch, i.e. a certain number of episodes, all episodes with a reward smaller than some percentile are discarded. In other words, the episodes from the batch that worked out best for the agent are kept and the data (input observations made, output subsequent actions taken) are used as a batch to compute a loss and optimise the ANN's weights. Iteratively, for a number of batches (which each contain a number of episodes which each contain a number of steps, observations, actions and rewards), the model is trained on the top percentiles of the batches, in turn getting better and better at mapping observations to a desirable policy. |
+| **Notebooks** | [Python]() |
+
+<p align="center">
+  <img src="14 - RL Cross Entropy Method/Cartpole.gif" width="500" />
+  <img src="14 - RL Cross Entropy Method/python.png" width="500" />
+</p>
+
+***
+
+### Week 15: Playing FrozenLake with Value Iteration (Reinforcement Learning) 🦿🏞️
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | [Open AI Gym]() |
+| **Goal** | I want to train an agent to play FrozenLake, i.e. to learn to cross a lake and get to the gift itself. For this, I will use the tabular value iteration method. |
+| **Keywords** | Reinforcement Learning, Transition Probabilities, Value Iteration, Loss Function, Exploration, Exploitation, `gym` |
+| **Results** | The value iteration method stores state values in a table (first picture below) that are iteratively recomputed using the Bellman update while getting new information about rewards from the environment through experience. Experience is gathered from random runs through the environment. The value of a state is the expected future total reward (from discounted individual step rewards) from that state. For FrozenLake, the value iteration works very fast (less than 30 seconds) and finds the optimal solution even for a larger environment that I custom-made to be entirely solvable, despite the agent slipping 2/3s of the time (second picture below). |
+| **Notebooks** | [Python]() |
+
+<p align="center">
+  <img src="15 - RL Value Iteration/state_values.png" width="250" />
+  <img src="15 - RL Value Iteration/solvable_env.png" width="250" />
+</p>
+
+***
+
+### Next Week: Coming up...
 
 | | Description |
 | :----------- | :----------- |
@@ -240,7 +291,115 @@ To be written at the end of 2023...
 
 ***
 
-### Week 14: Fear and Greed
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
+
+| | Description |
+| :----------- | :----------- |
+| **Data Source** | TBD |
+| **Goal** | TBD |
+| **Keywords** | TBD |
+| **Results** | TBD |
+| **Notebooks** | TBD |
+
+***
+
+### Next Week: Coming up...
 
 | | Description |
 | :----------- | :----------- |

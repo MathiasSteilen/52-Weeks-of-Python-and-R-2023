@@ -1,0 +1,118 @@
+---
+title: "Swiss Easter Weather"
+output: 
+  html_document:
+    theme: readable
+    toc: FALSE
+    toc_depth: 3
+    toc_float: TRUE
+    df_print: paged
+    code_folding: hide
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{css, echo=FALSE}
+pre, code {white-space:pre !important; overflow-x:auto}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
+
+library(tidyverse)
+
+theme_set(
+  theme_bw() +
+    theme(plot.title = element_text(size = 14, face = "bold"),
+          plot.subtitle = element_text(size = 10, face = "italic",
+                                       colour = "grey50"))
+)
+```
+
+***
+### Visualisation of Easter Weather
+***
+
+After preparing the data with Python, let's visualise it in R, because `ggplot2` shall forever rule:
+
+
+```{r}
+data = read_csv("weather_data_easter.csv") %>% 
+  mutate(across(c(Sonnenscheindauer, Temperatur, Bewoelkung), parse_number))
+```
+
+***
+### Boxplots
+***
+
+```{r, fig.width = 8, fig.height = 4.95, warning=FALSE, message=FALSE}
+data %>%
+  filter(`station/location` == "SMA") %>% 
+  select(Bewoelkung:month) %>% 
+  pivot_longer(-c(Bewoelkung, Station, year, month)) %>% 
+  ggplot() +
+  geom_boxplot(aes(x=name, y=value)) +
+  geom_point(data=data %>% 
+               filter(`station/location` == "SMA",
+                      year == 2023) %>% 
+               select(Bewoelkung:month) %>% 
+               pivot_longer(-c(Bewoelkung, Station, year, month)),
+             aes(x=name, y=value),
+             colour = "red", shape="square", size=2) +
+  facet_wrap(~ name, scales="free") +
+  labs(title="Easter Weather in Zurich",
+       subtitle = "2023 in red, historical data from 1960 to 2023.",
+       y = NULL, x = NULL)
+```
+
+```{r, eval=F, include=F}
+ggsave("R.png", width = 6, height = 3, dpi = 300)
+```
+
+It was very nice, but not particularly warm.
+
+***
+### Trends over time for the four locations and the four measurements?
+***
+
+```{r, fig.width = 8, fig.height = 4.95, warning=FALSE, message=FALSE}
+data %>% 
+  mutate(decade = year - (year %% 10)) %>% 
+  select(Bewoelkung:decade,
+         -c(day)) %>% 
+  pivot_longer(-c(Station:decade)) %>% 
+  ggplot(aes(x = factor(decade), y = value)) +
+  geom_boxplot() +
+  facet_wrap(~ name, scales = "free")
+```
+
+```{r, fig.width = 8, fig.height = 4.95, warning=FALSE, message=FALSE}
+data %>% 
+  mutate(decade = year - (year %% 10)) %>% 
+  select(Bewoelkung:decade,
+         -c(day)) %>% 
+  filter(Station != "Säntis") %>% 
+  pivot_longer(-c(Station:decade)) %>% 
+  group_by(Station, name, decade) %>% 
+  summarise(mean = mean(value, na.rm = T)) %>% 
+  ungroup() %>% 
+  ggplot(aes(decade, mean, colour = Station)) +
+  geom_line() +
+  facet_wrap(~ name, scales = "free")
+```
+
+<br>
+
+***
+
+&nbsp;
+<hr />
+<p style="text-align: center;">A work by <a href="https://www.linkedin.com/in/mathias-steilen/">Mathias Steilen</a></p>
+&nbsp;

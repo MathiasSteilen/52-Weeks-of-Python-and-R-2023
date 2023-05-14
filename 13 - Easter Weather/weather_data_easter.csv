@@ -1,0 +1,257 @@
+station/location,date,Bewoelkung,Niederschlag,Sonnenscheindauer,Temperatur,Station,year,month,day
+CDF,1960-04-17,100,7.1,0,1.2,La Chaux-de-Fonds,1960,4,Ostern
+CDF,1961-04-02,77,0.1,270,8.4,La Chaux-de-Fonds,1961,4,Ostern
+CDF,1962-04-22,60,5.0,330,12,La Chaux-de-Fonds,1962,4,Ostern
+CDF,1963-04-14,20,0.0,534,5.1,La Chaux-de-Fonds,1963,4,Ostern
+CDF,1964-03-29,100,0.0,18,1.8,La Chaux-de-Fonds,1964,3,Ostern
+CDF,1965-04-18,93,12.1,6,2.5,La Chaux-de-Fonds,1965,4,Ostern
+CDF,1966-04-10,83,5.0,156,7,La Chaux-de-Fonds,1966,4,Ostern
+CDF,1967-03-26,93,15.2,54,4.1,La Chaux-de-Fonds,1967,3,Ostern
+CDF,1968-04-14,57,0.0,282,6.8,La Chaux-de-Fonds,1968,4,Ostern
+CDF,1969-04-06,37,0.0,252,8.5,La Chaux-de-Fonds,1969,4,Ostern
+CDF,1970-03-29,100,0.4,0,-0.1,La Chaux-de-Fonds,1970,3,Ostern
+CDF,1971-04-11,79,0.0,468,9.3,La Chaux-de-Fonds,1971,4,Ostern
+CDF,1972-04-02,75,0.0,96,7,La Chaux-de-Fonds,1972,4,Ostern
+CDF,1973-04-22,38,0.6,450,1.2,La Chaux-de-Fonds,1973,4,Ostern
+CDF,1974-04-14,0,0.0,612,6.6,La Chaux-de-Fonds,1974,4,Ostern
+CDF,1975-03-30,54,0.0,330,-3.6,La Chaux-de-Fonds,1975,3,Ostern
+CDF,1976-04-18,0,0.0,780,10.1,La Chaux-de-Fonds,1976,4,Ostern
+CDF,1977-04-10,100,2.1,90,-4.5,La Chaux-de-Fonds,1977,4,Ostern
+CDF,1978-03-26,100,10.6,36,-1.4,La Chaux-de-Fonds,1978,3,Ostern
+CDF,1979-04-15,59,5.0,396,8.2,La Chaux-de-Fonds,1979,4,Ostern
+CDF,1980-04-06,79,0.0,78,-2.1,La Chaux-de-Fonds,1980,4,Ostern
+CDF,1981-04-19,88,0.8,208,-0.3,La Chaux-de-Fonds,1981,4,Ostern
+CDF,1982-04-11,75,0.0,234,1.7,La Chaux-de-Fonds,1982,4,Ostern
+CDF,1983-04-03,96,3.0,0,-1.4,La Chaux-de-Fonds,1983,4,Ostern
+CDF,1984-04-22,25,0.0,705,8.9,La Chaux-de-Fonds,1984,4,Ostern
+CDF,1985-04-07,67,28.7,412,8,La Chaux-de-Fonds,1985,4,Ostern
+CDF,1986-03-30,96,9.0,165,0.4,La Chaux-de-Fonds,1986,3,Ostern
+CDF,1987-04-19,54,9.1,423,10.6,La Chaux-de-Fonds,1987,4,Ostern
+CDF,1988-04-03,58,0.0,309,3.4,La Chaux-de-Fonds,1988,4,Ostern
+CDF,1989-03-26,8,0.0,675,7.5,La Chaux-de-Fonds,1989,3,Ostern
+CDF,1990-04-15,92,10.1,69,1.1,La Chaux-de-Fonds,1990,4,Ostern
+CDF,1991-03-31,17,0.0,672,2.6,La Chaux-de-Fonds,1991,3,Ostern
+CDF,1992-04-19,92,0.3,30,5.1,La Chaux-de-Fonds,1992,4,Ostern
+CDF,1993-04-11,96,12.3,177,3.9,La Chaux-de-Fonds,1993,4,Ostern
+CDF,1994-04-03,75,0.7,247,-2.6,La Chaux-de-Fonds,1994,4,Ostern
+CDF,1995-04-16,88,2.3,50,1.4,La Chaux-de-Fonds,1995,4,Ostern
+CDF,1996-04-07,71,0.0,352,6.6,La Chaux-de-Fonds,1996,4,Ostern
+CDF,1997-03-30,58,0.0,294,1.5,La Chaux-de-Fonds,1997,3,Ostern
+CDF,1998-04-12,96,1.5,47,0,La Chaux-de-Fonds,1998,4,Ostern
+CDF,1999-04-04,96,0.0,42,6.7,La Chaux-de-Fonds,1999,4,Ostern
+CDF,2000-04-23,83,30.1,126,8.5,La Chaux-de-Fonds,2000,4,Ostern
+CDF,2001-04-15,100,14.5,0,0,La Chaux-de-Fonds,2001,4,Ostern
+CDF,2002-03-31,33,0.0,398,3.8,La Chaux-de-Fonds,2002,3,Ostern
+CDF,2003-04-20,71,0.0,291,9,La Chaux-de-Fonds,2003,4,Ostern
+CDF,2004-04-11,75,0.1,137,1.7,La Chaux-de-Fonds,2004,4,Ostern
+CDF,2005-03-27,92,1.3,49,7.1,La Chaux-de-Fonds,2005,3,Ostern
+CDF,2006-04-16,96,7.2,66,6.4,La Chaux-de-Fonds,2006,4,Ostern
+CDF,2007-04-08,17,0.0,481,7.7,La Chaux-de-Fonds,2007,4,Ostern
+CDF,2008-03-23,100,1.9,15,-4.2,La Chaux-de-Fonds,2008,3,Ostern
+CDF,2009-04-12,79,0.0,170,9.8,La Chaux-de-Fonds,2009,4,Ostern
+CDF,2010-04-04,58,4.5,153,2.3,La Chaux-de-Fonds,2010,4,Ostern
+CDF,2011-04-24,75,0.0,139,10.8,La Chaux-de-Fonds,2011,4,Ostern
+CDF,2012-04-08,-,0.7,43,-0.2,La Chaux-de-Fonds,2012,4,Ostern
+CDF,2013-03-31,-,0.0,0,-1.9,La Chaux-de-Fonds,2013,3,Ostern
+CDF,2014-04-20,-,5.6,491,6.9,La Chaux-de-Fonds,2014,4,Ostern
+CDF,2015-04-05,-,0.0,262,-0.3,La Chaux-de-Fonds,2015,4,Ostern
+CDF,2016-03-27,-,3.4,60,4.2,La Chaux-de-Fonds,2016,3,Ostern
+CDF,2017-04-16,-,5.6,22,4.7,La Chaux-de-Fonds,2017,4,Ostern
+CDF,2018-04-01,-,1.8,16,-0.1,La Chaux-de-Fonds,2018,4,Ostern
+CDF,2019-04-21,-,0.0,277,11.6,La Chaux-de-Fonds,2019,4,Ostern
+CDF,2020-04-12,-,0.0,318,9.8,La Chaux-de-Fonds,2020,4,Ostern
+CDF,2021-04-04,-,0.0,699,3.6,La Chaux-de-Fonds,2021,4,Ostern
+CDF,2022-04-17,-,0.0,730,7.3,La Chaux-de-Fonds,2022,4,Ostern
+CDF,2023-04-09,-,0.0,644,5.0,La Chaux-de-Fonds,2023,4,Ostern
+SAE,1960-04-17,100,2.1,0,-7.7,Säntis,1960,4,Ostern
+SAE,1961-04-02,97,21.3,84,-2.9,Säntis,1961,4,Ostern
+SAE,1962-04-22,33,0,738,3,Säntis,1962,4,Ostern
+SAE,1963-04-14,100,2.1,36,-6.5,Säntis,1963,4,Ostern
+SAE,1964-03-29,53,0,348,-6.1,Säntis,1964,3,Ostern
+SAE,1965-04-18,100,46.9,0,-7.4,Säntis,1965,4,Ostern
+SAE,1966-04-10,100,19.6,0,-4.4,Säntis,1966,4,Ostern
+SAE,1967-03-26,80,12.7,342,-4.2,Säntis,1967,3,Ostern
+SAE,1968-04-14,37,0,684,-3.8,Säntis,1968,4,Ostern
+SAE,1969-04-06,50,0,72,-2.4,Säntis,1969,4,Ostern
+SAE,1970-03-29,100,5.6,0,-12.9,Säntis,1970,3,Ostern
+SAE,1971-04-11,34,0,606,-1.7,Säntis,1971,4,Ostern
+SAE,1972-04-02,100,21.2,0,-0.6,Säntis,1972,4,Ostern
+SAE,1973-04-22,41,0,702,-9.7,Säntis,1973,4,Ostern
+SAE,1974-04-14,100,0,144,-5,Säntis,1974,4,Ostern
+SAE,1975-03-30,100,4.5,0,-11.3,Säntis,1975,3,Ostern
+SAE,1976-04-18,9,0,768,-0.2,Säntis,1976,4,Ostern
+SAE,1977-04-10,91,3.8,0,-13.4,Säntis,1977,4,Ostern
+SAE,1978-03-26,100,22.1,0,-10.4,Säntis,1978,3,Ostern
+SAE,1979-04-15,59,0,366,-1.9,Säntis,1979,4,Ostern
+SAE,1980-04-06,79,1.3,120,-13.1,Säntis,1980,4,Ostern
+SAE,1981-04-19,92,1.2,36,-11.8,Säntis,1981,4,Ostern
+SAE,1982-04-11,100,12.3,0,-9.4,Säntis,1982,4,Ostern
+SAE,1983-04-03,100,28.9,6,-9.2,Säntis,1983,4,Ostern
+SAE,1984-04-22,46,0,748,1.3,Säntis,1984,4,Ostern
+SAE,1985-04-07,42,0,623,-3.2,Säntis,1985,4,Ostern
+SAE,1986-03-30,88,4.7,111,-9.1,Säntis,1986,3,Ostern
+SAE,1987-04-19,79,9.3,207,0.7,Säntis,1987,4,Ostern
+SAE,1988-04-03,75,0,225,-5,Säntis,1988,4,Ostern
+SAE,1989-03-26,13,0,717,1,Säntis,1989,3,Ostern
+SAE,1990-04-15,96,36.8,0,-7.5,Säntis,1990,4,Ostern
+SAE,1991-03-31,13,0,678,-4.2,Säntis,1991,3,Ostern
+SAE,1992-04-19,100,13.6,0,-2.3,Säntis,1992,4,Ostern
+SAE,1993-04-11,96,10.2,0,-6,Säntis,1993,4,Ostern
+SAE,1994-04-03,83,1.8,242,-12.3,Säntis,1994,4,Ostern
+SAE,1995-04-16,100,15.4,0,-8,Säntis,1995,4,Ostern
+SAE,1996-04-07,67,0.2,584,-1.2,Säntis,1996,4,Ostern
+SAE,1997-03-30,100,0.6,0,-9.1,Säntis,1997,3,Ostern
+SAE,1998-04-12,100,26.2,0,-10,Säntis,1998,4,Ostern
+SAE,1999-04-04,100,10,0,-0.9,Säntis,1999,4,Ostern
+SAE,2000-04-23,79,15.6,240,4.3,Säntis,2000,4,Ostern
+SAE,2001-04-15,100,92,0,-7.7,Säntis,2001,4,Ostern
+SAE,2002-03-31,54,0,500,-4,Säntis,2002,3,Ostern
+SAE,2003-04-20,58,0.2,597,-1.8,Säntis,2003,4,Ostern
+SAE,2004-04-11,100,0.7,88,-7.5,Säntis,2004,4,Ostern
+SAE,2005-03-27,100,10.8,0,-2.3,Säntis,2005,3,Ostern
+SAE,2006-04-16,100,37.3,0,-2.7,Säntis,2006,4,Ostern
+SAE,2007-04-08,46,0,714,-1.9,Säntis,2007,4,Ostern
+SAE,2008-03-23,100,17.6,-,-13.8,Säntis,2008,3,Ostern
+SAE,2009-04-12,75,0,549,1,Säntis,2009,4,Ostern
+SAE,2010-04-04,100,16.5,0,-6.8,Säntis,2010,4,Ostern
+SAE,2011-04-24,88,0,54,1.3,Säntis,2011,4,Ostern
+SAE,2012-04-08,100,1,0,-12.7,Säntis,2012,4,Ostern
+SAE,2013-03-31,100,0.7,22,-11.2,Säntis,2013,3,Ostern
+SAE,2014-04-20,54,1.4,438,-0.6,Säntis,2014,4,Ostern
+SAE,2015-04-05,100,0.1,0,-12,Säntis,2015,4,Ostern
+SAE,2016-03-27,92,4,77,-3,Säntis,2016,3,Ostern
+SAE,2017-04-16,100,42,0,-5.5,Säntis,2017,4,Ostern
+SAE,2018-04-01,-,25.1,0,-8.6,Säntis,2018,4,Ostern
+SAE,2019-04-21,-,0,596,3.2,Säntis,2019,4,Ostern
+SAE,2020-04-12,-,0,257,1.8,Säntis,2020,4,Ostern
+SAE,2021-04-04,-,0,724,-6.1,Säntis,2021,4,Ostern
+SAE,2022-04-17,-,0,705,-3.1,Säntis,2022,4,Ostern
+SAE,2023-04-09,-,0.0,725,-,Säntis,2023,4,Ostern
+SMA,1960-04-17,100,1.2,0,5.0,Zürich / Fluntern,1960,4,Ostern
+SMA,1961-04-02,87,2.6,264,10.0,Zürich / Fluntern,1961,4,Ostern
+SMA,1962-04-22,40,0.0,594,17.1,Zürich / Fluntern,1962,4,Ostern
+SMA,1963-04-14,57,1.5,324,7.6,Zürich / Fluntern,1963,4,Ostern
+SMA,1964-03-29,100,0.1,0,3.0,Zürich / Fluntern,1964,3,Ostern
+SMA,1965-04-18,77,9.1,126,5.3,Zürich / Fluntern,1965,4,Ostern
+SMA,1966-04-10,77,7.8,144,7.5,Zürich / Fluntern,1966,4,Ostern
+SMA,1967-03-26,73,1.0,102,8.2,Zürich / Fluntern,1967,3,Ostern
+SMA,1968-04-14,93,0.0,408,8.5,Zürich / Fluntern,1968,4,Ostern
+SMA,1969-04-06,50,0.0,36,7.9,Zürich / Fluntern,1969,4,Ostern
+SMA,1970-03-29,100,0.0,6,1.2,Zürich / Fluntern,1970,3,Ostern
+SMA,1971-04-11,100,0.0,84,9.2,Zürich / Fluntern,1971,4,Ostern
+SMA,1972-04-02,84,5.2,54,10.8,Zürich / Fluntern,1972,4,Ostern
+SMA,1973-04-22,29,0.0,696,5.6,Zürich / Fluntern,1973,4,Ostern
+SMA,1974-04-14,96,0.0,180,6.5,Zürich / Fluntern,1974,4,Ostern
+SMA,1975-03-30,75,0.0,30,1.0,Zürich / Fluntern,1975,3,Ostern
+SMA,1976-04-18,0,0.0,750,12.7,Zürich / Fluntern,1976,4,Ostern
+SMA,1977-04-10,91,2.7,162,0.7,Zürich / Fluntern,1977,4,Ostern
+SMA,1978-03-26,91,7.1,54,2.6,Zürich / Fluntern,1978,3,Ostern
+SMA,1979-04-15,34,0.0,480,12.6,Zürich / Fluntern,1979,4,Ostern
+SMA,1980-04-06,88,0.1,108,1.4,Zürich / Fluntern,1980,4,Ostern
+SMA,1981-04-19,92,0.0,16,3.1,Zürich / Fluntern,1981,4,Ostern
+SMA,1982-04-11,63,0.4,225,6.6,Zürich / Fluntern,1982,4,Ostern
+SMA,1983-04-03,100,13.0,0,2.1,Zürich / Fluntern,1983,4,Ostern
+SMA,1984-04-22,42,0.0,678,14.8,Zürich / Fluntern,1984,4,Ostern
+SMA,1985-04-07,50,16.0,631,11.1,Zürich / Fluntern,1985,4,Ostern
+SMA,1986-03-30,83,4.2,190,4.4,Zürich / Fluntern,1986,3,Ostern
+SMA,1987-04-19,54,12.3,246,14.1,Zürich / Fluntern,1987,4,Ostern
+SMA,1988-04-03,75,0.0,334,7.1,Zürich / Fluntern,1988,4,Ostern
+SMA,1989-03-26,4,0.0,698,11.4,Zürich / Fluntern,1989,3,Ostern
+SMA,1990-04-15,79,7.2,69,4.1,Zürich / Fluntern,1990,4,Ostern
+SMA,1991-03-31,8,0.0,630,4.7,Zürich / Fluntern,1991,3,Ostern
+SMA,1992-04-19,92,1.1,66,8.7,Zürich / Fluntern,1992,4,Ostern
+SMA,1993-04-11,88,2.8,5,7.1,Zürich / Fluntern,1993,4,Ostern
+SMA,1994-04-03,50,0.5,337,2.5,Zürich / Fluntern,1994,4,Ostern
+SMA,1995-04-16,79,5.7,71,4.5,Zürich / Fluntern,1995,4,Ostern
+SMA,1996-04-07,42,0.0,507,10.8,Zürich / Fluntern,1996,4,Ostern
+SMA,1997-03-30,63,0.0,95,4.6,Zürich / Fluntern,1997,3,Ostern
+SMA,1998-04-12,92,3.5,113,3.0,Zürich / Fluntern,1998,4,Ostern
+SMA,1999-04-04,88,1.3,34,11.4,Zürich / Fluntern,1999,4,Ostern
+SMA,2000-04-23,88,11.5,202,14.9,Zürich / Fluntern,2000,4,Ostern
+SMA,2001-04-15,100,16.0,0,2.8,Zürich / Fluntern,2001,4,Ostern
+SMA,2002-03-31,21,0.0,667,8.9,Zürich / Fluntern,2002,3,Ostern
+SMA,2003-04-20,54,2.4,564,11.7,Zürich / Fluntern,2003,4,Ostern
+SMA,2004-04-11,83,5.7,73,4.8,Zürich / Fluntern,2004,4,Ostern
+SMA,2005-03-27,88,1.9,3,9.9,Zürich / Fluntern,2005,3,Ostern
+SMA,2006-04-16,75,3.3,152,10.5,Zürich / Fluntern,2006,4,Ostern
+SMA,2007-04-08,58,0.0,347,9.9,Zürich / Fluntern,2007,4,Ostern
+SMA,2008-03-23,88,2.6,28,0.3,Zürich / Fluntern,2008,3,Ostern
+SMA,2009-04-12,71,0.0,249,14.2,Zürich / Fluntern,2009,4,Ostern
+SMA,2010-04-04,96,1.9,79,6.6,Zürich / Fluntern,2010,4,Ostern
+SMA,2011-04-24,83,0.1,312,15.0,Zürich / Fluntern,2011,4,Ostern
+SMA,2012-04-08,83,0.8,28,1.5,Zürich / Fluntern,2012,4,Ostern
+SMA,2013-03-31,100,1.5,0,0.4,Zürich / Fluntern,2013,3,Ostern
+SMA,2014-04-20,67,0.3,566,9.3,Zürich / Fluntern,2014,4,Ostern
+SMA,2015-04-05,54,0.0,249,2.7,Zürich / Fluntern,2015,4,Ostern
+SMA,2016-03-27,-,0.1,13,7.0,Zürich / Fluntern,2016,3,Ostern
+SMA,2017-04-16,100,5.3,0,7.3,Zürich / Fluntern,2017,4,Ostern
+SMA,2018-04-01,92,1.4,89,4.7,Zürich / Fluntern,2018,4,Ostern
+SMA,2019-04-21,50,0.0,436,15.1,Zürich / Fluntern,2019,4,Ostern
+SMA,2020-04-12,25,0.0,540,16.2,Zürich / Fluntern,2020,4,Ostern
+SMA,2021-04-04,8,0.0,724,6.8,Zürich / Fluntern,2021,4,Ostern
+SMA,2022-04-17,-,0.0,753,8.4,Zürich / Fluntern,2022,4,Ostern
+SMA,2023-04-09,46,0.0,666,7.2,Zürich / Fluntern,2023,4,Ostern
+STG,1960-04-17,100,0,0,3.9,St. Gallen,1960,4,Ostern
+STG,1961-04-02,83,8.9,198,9.2,St. Gallen,1961,4,Ostern
+STG,1962-04-22,20,0,738,16.7,St. Gallen,1962,4,Ostern
+STG,1963-04-14,53,1,114,5.8,St. Gallen,1963,4,Ostern
+STG,1964-03-29,97,1.1,0,2.3,St. Gallen,1964,3,Ostern
+STG,1965-04-18,100,13.5,216,3.6,St. Gallen,1965,4,Ostern
+STG,1966-04-10,100,1.8,0,7.8,St. Gallen,1966,4,Ostern
+STG,1967-03-26,93,0.1,240,7.5,St. Gallen,1967,3,Ostern
+STG,1968-04-14,13,0,558,10,St. Gallen,1968,4,Ostern
+STG,1969-04-06,57,0,312,7.8,St. Gallen,1969,4,Ostern
+STG,1970-03-29,100,0,0,0.3,St. Gallen,1970,3,Ostern
+STG,1971-04-11,100,0,0,7.1,St. Gallen,1971,4,Ostern
+STG,1972-04-02,91,3.2,48,10.8,St. Gallen,1972,4,Ostern
+STG,1973-04-22,34,0,636,4.2,St. Gallen,1973,4,Ostern
+STG,1974-04-14,91,0,108,4.5,St. Gallen,1974,4,Ostern
+STG,1975-03-30,100,4.5,0,-0.7,St. Gallen,1975,3,Ostern
+STG,1976-04-18,0,0,726,11.5,St. Gallen,1976,4,Ostern
+STG,1977-04-10,96,3,12,-0.6,St. Gallen,1977,4,Ostern
+STG,1978-03-26,91,6.9,60,1.9,St. Gallen,1978,3,Ostern
+STG,1979-04-15,25,0,696,11.1,St. Gallen,1979,4,Ostern
+STG,1980-04-06,88,0,204,0.2,St. Gallen,1980,4,Ostern
+STG,1981-04-19,96,0.1,72,2,St. Gallen,1981,4,Ostern
+STG,1982-04-11,88,4.5,18,4.3,St. Gallen,1982,4,Ostern
+STG,1983-04-03,100,14.7,12,1.2,St. Gallen,1983,4,Ostern
+STG,1984-04-22,58,0,700,13.5,St. Gallen,1984,4,Ostern
+STG,1985-04-07,71,0.6,643,10,St. Gallen,1985,4,Ostern
+STG,1986-03-30,92,0.5,192,3.5,St. Gallen,1986,3,Ostern
+STG,1987-04-19,75,10.5,352,13.4,St. Gallen,1987,4,Ostern
+STG,1988-04-03,67,0,312,5.5,St. Gallen,1988,4,Ostern
+STG,1989-03-26,21,0,699,9.1,St. Gallen,1989,3,Ostern
+STG,1990-04-15,75,7.7,49,3.2,St. Gallen,1990,4,Ostern
+STG,1991-03-31,46,0,617,2.7,St. Gallen,1991,3,Ostern
+STG,1992-04-19,96,2,15,8,St. Gallen,1992,4,Ostern
+STG,1993-04-11,100,3.5,0,5.4,St. Gallen,1993,4,Ostern
+STG,1994-04-03,58,0.2,380,0.4,St. Gallen,1994,4,Ostern
+STG,1995-04-16,96,7,0,3,St. Gallen,1995,4,Ostern
+STG,1996-04-07,67,0,596,9.4,St. Gallen,1996,4,Ostern
+STG,1997-03-30,88,0.6,136,2.5,St. Gallen,1997,3,Ostern
+STG,1998-04-12,96,5.8,70,1.6,St. Gallen,1998,4,Ostern
+STG,1999-04-04,92,3.2,25,9.5,St. Gallen,1999,4,Ostern
+STG,2000-04-23,83,10.3,110,15,St. Gallen,2000,4,Ostern
+STG,2001-04-15,100,11.1,0,1.6,St. Gallen,2001,4,Ostern
+STG,2002-03-31,63,0,582,8.2,St. Gallen,2002,3,Ostern
+STG,2003-04-20,54,0,601,10,St. Gallen,2003,4,Ostern
+STG,2004-04-11,79,0,142,3.6,St. Gallen,2004,4,Ostern
+STG,2005-03-27,96,3.8,0,8.6,St. Gallen,2005,3,Ostern
+STG,2006-04-16,79,4.5,71,8.6,St. Gallen,2006,4,Ostern
+STG,2007-04-08,63,0,285,7.4,St. Gallen,2007,4,Ostern
+STG,2008-03-23,96,8.9,26,-1.6,St. Gallen,2008,3,Ostern
+STG,2009-04-12,88,0,481,14.1,St. Gallen,2009,4,Ostern
+STG,2010-04-04,96,1.7,0,5.5,St. Gallen,2010,4,Ostern
+STG,2011-04-24,92,0.3,139,14,St. Gallen,2011,4,Ostern
+STG,2012-04-08,-,5.4,81,-1,St. Gallen,2012,4,Ostern
+STG,2013-03-31,-,2.7,0,-1.3,St. Gallen,2013,3,Ostern
+STG,2014-04-20,-,0.2,426,7.3,St. Gallen,2014,4,Ostern
+STG,2015-04-05,-,0.1,291,0.7,St. Gallen,2015,4,Ostern
+STG,2016-03-27,-,1.3,46,7.4,St. Gallen,2016,3,Ostern
+STG,2017-04-16,-,29.7,0,4.5,St. Gallen,2017,4,Ostern
+STG,2018-04-01,-,2.2,41,3.2,St. Gallen,2018,4,Ostern
+STG,2019-04-21,-,0,609,15.2,St. Gallen,2019,4,Ostern
+STG,2020-04-12,-,0,532,15,St. Gallen,2020,4,Ostern
+STG,2021-04-04,-,0,745,4.3,St. Gallen,2021,4,Ostern
+STG,2022-04-17,-,0,776,5.3,St. Gallen,2022,4,Ostern
+STG,2023-04-09,-,0.0,412,5.0,St. Gallen,2023,4,Ostern
