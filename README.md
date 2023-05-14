@@ -341,7 +341,7 @@ To be written at the end of 2023...
 | **Goal** | Scrape rent prices for all of Switzerland from the websites using the dynamic web scraping library `Selenium` and the static `rvest` and visualise the results. |
 | **Keywords** | Dynamic Web Scraping, `HTML`,  `rvest`, `RSelenium`, Data Cleaning, Data Visualisation |
 | **Results** | There are very strong differences in rent prices between Swiss cities and even within Bern itself. |
-| **Notebooks** | [R Script]() |
+| **Notebooks** | [R Script](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/19%20-%20Housing%20Bern/Bern.R) |
 
 <p align="center">
   <img src="19 - Housing Bern/SwissRent.png" width="500" />
@@ -358,7 +358,7 @@ To be written at the end of 2023...
 | **Goal** | On my way to work, I noticed bike counting stations in many locations in Bern, which led me on a quest of finding the data that they collect. |
 | **Keywords** | Data Visualisation, `ggplot2` |
 | **Results** | Unfortunately, I didn't find the data for Bern, but there were years and years of data available from Zurich, so I'm going to share my findings of patterns below. |
-| **Notebooks** | [R Script]() |
+| **Notebooks** | [R Script](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/20%20-%20Velo%20Zurich/Velo.R) |
 
 <p align="center">
   <img src="20 - Velo Zurich/velo_barometer.jpg" width="250" />
