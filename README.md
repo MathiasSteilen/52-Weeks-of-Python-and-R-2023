@@ -406,7 +406,7 @@ To be written at the end of 2023...
 | **Goal** | The goal for this week is very simple: I need a new LinkedIn header, so I just want to make a visually appealing chart without regard for technical details. |
 | **Keywords** | `plotnine`, `ggplot2`  |
 | **Results** | The picture below shows the end-user electricity consumption of Switzerland for each day in the year (1-365) over the past decade with a colourful distinction between workdays, Saturdays and Sundays. But: The only thing that really counts for the banner is the artistic touch. :-) |
-| **Notebooks** | TBD |
+| **Notebooks** | [RMarkdown](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/23%20-%20Swiss%20End%20User%20Electricity%20Consumption/Swiss%20End-User%20Electricity.Rmd) |
 
 <p align="center">
   <img src="23 - Swiss End User Electricity Consumption/LinkedIn Banner.png" width="500" />
@@ -414,19 +414,23 @@ To be written at the end of 2023...
 
 ***
 
-### Next Week: Coming up...
+### Week 24: Scraping Raw Smartphone Specifications and Prices 📱
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | Largest Swiss Tech Retailer |
+| **Goal** | The goal of this week is to systematically collect smartphone specifications and historical prices from the website of the biggest tech retailer in Switzerland. I want to have a comprehensive dataset that can be used for market analysis, product comparisons, or any other insights related to current smartphone offerings in 2023. Especially the historic chart on the website (shown below) is interesting to me, because I want to analyse fluctuations in the prices and depreciation patterns of various smartphone providers. |
+| **Keywords** | Web Scraping, `Selenium`, `Pandas`, Chrome WebDriver, `JSON` Parsing, Randomized Delays, `HTTP` |
+| **Results** | The final notebook gets all devices in the smartphone category and extracts details like specifications and price history. The end result is a set of CSV files on price history and specifications of 1887 smartphones with over 100 variables, which will be analysed another week. |
+| **Notebooks** | [Python]() |
 
+<p align="center">
+  <img src="24 - Digitec/article.png" width="500" />
+</p>
+s
 ***
 
-### Next Week: Coming up...
+### Week 25: Analysing the Smartphone Market in 2023 📲
 
 | | Description |
 | :----------- | :----------- |
