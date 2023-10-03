@@ -166,6 +166,8 @@ data %>%
   scale_y_continuous(labels = comma_format(suffix = " CHF")) +
   scale_x_continuous(labels = comma_format()) +
   ggsci::scale_colour_jama()
+
+ggsave(filename = "moto_viz.png", dpi = 300, width = 8, height = 4)
 ```
 
 

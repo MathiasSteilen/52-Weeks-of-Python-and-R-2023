@@ -54,9 +54,9 @@ library(bundle)
 ##### Requesting sublinks to individual listings from site
 
 ```{r class.source='fold-show', eval=FALSE}
-pages <- 1:20
+pages <- 1:5
 
-start_urls <- paste0("https://www.anibis.ch/de/c/motorrad-velo-motorraeder?fts=Kawasaki%20Z650&pi=",
+start_urls <- paste0("https://www.anibis.ch/de/c/motorrad-velo-motorraeder?fts=CB%20500%20f&pi=",
                      pages) %>% 
   as_tibble() %>% 
   rename(url = value)
@@ -213,7 +213,7 @@ listings_clean %>% glimpse()
 ```
 
 ```{r, eval=FALSE, echo=FALSE}
-write_csv(listings_clean, "C:/Users/mathi/OneDrive/R/Data Visualisation/Used Cars Web Scraping/z650-clean.csv")
+write_csv(listings_clean, "C:/Users/mathi/OneDrive/R/Data Visualisation/Used Cars Web Scraping/cb500f-clean.csv")
 ```
 
 <br>

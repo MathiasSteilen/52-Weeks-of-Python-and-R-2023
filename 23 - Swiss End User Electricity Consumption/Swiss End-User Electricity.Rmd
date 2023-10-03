@@ -1,0 +1,366 @@
+---
+title: "Swiss End-User Electricity Consumption"
+output: 
+  html_document:
+    theme: readable
+    toc: FALSE
+    toc_depth: 3
+    toc_float: TRUE
+    df_print: paged
+    code_folding: hide
+editor_options: 
+  chunk_output_type: console
+---
+
+[Return to Homepage](https://mathiassteilen.github.io/)
+
+[Return to Data Visualisation Section](https://mathiassteilen.github.io/dataviz.html)
+
+![](../Graphics/electricity.jpg)
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{css, echo=FALSE}
+pre, code {white-space:pre !important; overflow-x:auto}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(broom)
+library(readxl)
+library(lubridate)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()[[2]]))
+```
+
+***
+### Description of the Data
+***
+
+The data comes from [Swissgrid](https://www.swissgrid.ch/en/home.html), who regularly update their [total end-user energy consumption data sets](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html) for the Switzerland.
+
+To show only the results, large code chunks are hidden, but can be unfolded by clicking the "Code" boxes on the top right of each hidden code chunk.
+
+***
+### Data Cleaning
+***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Load data
+electricity <- read_xlsx("5 EnergieEndverbrauch2009-2023.xlsx")
+```
+
+The annual files were only merged to one. No additional data preparation is needed.
+
+***
+### How Did The Pandemic Affect Swiss End-User Energy Consumption?
+***
+
+```{r, fig.width=8, fig.height=4.95, dpi=300, dev="png", message=FALSE, warning=FALSE}
+# Aggregate to monthly values
+elec <- electricity %>%
+  mutate(date = as.character(substr(Zeitpunkt,1,10)),
+         year = as.character(substr(Zeitpunkt,1,4)),
+         month_in_year = month(Zeitpunkt)) %>%
+  group_by(year, month_in_year) %>%
+  summarise(kWh = sum(kWh),
+            month_in_year = last(month_in_year),
+            year = last(year)) %>%
+  head(-1)
+
+elec %>%
+  mutate(kWh = kWh/1000000) %>% 
+  ggplot(aes(x = month_in_year, y = kWh, color = as.factor(year))) +
+  geom_line(size = 0.7) +
+  labs(title = "The effect of the COVID-19 pandemic on total energy consumption in Switzerland",
+       subtitle = "End user electricity consumption in the Swiss controlblock by month (in millions of kWh)",
+       x = "Calendar Month Number",
+       y = "kWh (in millions)") +
+  theme_minimal() +
+  theme(plot.title = element_text(size = 12, face="bold", colour="black"),
+        plot.subtitle = element_text(face = "italic", colour = "gray50",
+                                   size = 10),
+        legend.title = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.grid.major.x = element_blank(),
+        axis.title = element_text(size = 10)) +
+  scale_colour_manual(values = c(rep("gray75", 11), "red", "firebrick", "orange")) +
+  scale_x_continuous(breaks = seq(1,12,1), limits = c(1,12)) +
+  scale_y_continuous(labels = scales::comma_format())
+
+```
+
+Aggregating the data to monthly values and overlaying them for comparison reveals that the pandemic greatly impacted total energy consumption, especially during the first lockdown.
+
+***
+### Are There Daily Patterns Within Each Week?
+***
+
+```{r, fig.width=8, fig.height=4.95, dpi=300, dev="png", message=FALSE, warning=FALSE}
+elec <- electricity %>% 
+  mutate(hour = hour(Zeitpunkt),
+         weekday = wday(Zeitpunkt, label = TRUE)) %>% 
+  group_by(hour, weekday) %>% 
+  summarise(mean_c = mean(kWh)) %>% 
+  mutate(weekday = ordered(weekday, levels = c("Mon", "Tue", "Wed", "Thu",
+                                               "Fri", "Sat", "Sun")))
+elec %>% 
+  ggplot(aes(x = hour+1, y = weekday)) +
+  geom_tile(aes(fill = mean_c), width=0.95, height=0.95) +
+  labs(title = "Swiss End-User Electricity Consumption",
+       subtitle = "Averages are formed on 2009-2023",
+       y = "Weekday",
+       x = "Hour In The Day (Starting At Midnight)",
+       fill = "Mean Consumption:") +
+  scale_x_continuous(breaks = 1:24,  expand = c(0, 0)) +
+  scale_fill_distiller(type = "seq", direction = 1,
+                       labels = scales::comma_format(suffix = " kWh")) +
+  theme_minimal() +
+  theme(panel.grid = element_blank(),
+        plot.title = element_text(size = 12, face="bold", colour="black"),
+        plot.subtitle = element_text(face = "italic", colour = "gray50",
+                                     size = 10),
+        axis.title = element_text(size = 10))
+```
+
+From the heat map above, it can be seen that peaks take place during weekday business hours, whereas the weekend looks milder. It can be concluded that the industry has a very high impact on total energy consumption.
+
+***
+#### Are Holiday Lows Visible?
+***
+
+```{r, fig.width=8, fig.height=4.95, dpi=300, dev="png", message=FALSE, warning=FALSE}
+electricity %>% 
+  mutate(day = yday(Zeitpunkt),
+         year = year(Zeitpunkt)) %>% 
+  group_by(day) %>% 
+  summarise(mean_kWh = mean(kWh),
+            lower_kWh = quantile (kWh, 0.1),
+            higher_kWh = quantile(kWh, 0.9)) %>% 
+  ggplot(aes(day, mean_kWh)) +
+  geom_line(colour = "dodgerblue", size = 0.75) +
+  geom_ribbon(aes(ymin = lower_kWh, ymax = higher_kWh),
+              colour = "dodgerblue", fill = "dodgerblue",
+              alpha = 0.5) +
+  labs(title = "Daily Averages With Confidence Levels (10th And 90th Percentile)",
+       subtitle = "Averages are formed based on historical data from the period 2009-2022",
+       y = "kWh",
+       x = "Day In The Year") +
+  scale_y_continuous(labels = scales::comma_format()) +
+  theme_minimal() +
+  theme(plot.title = element_text(size = 12, face="bold", colour="black"),
+        plot.subtitle = element_text(face = "italic", colour = "gray50",
+                                     size = 10),
+        axis.title = element_text(size = 10))
+```
+
+### Total Usage by Weekday vs. Weekend
+
+```{r}
+electricity %>% 
+  group_by(date = date(Zeitpunkt)) %>% 
+  summarise(usage = sum(kWh, na.rm = T) / 1e6) %>% 
+  ungroup() %>% 
+  mutate(wday = wday(date, week_start = 1),
+         indicator = case_when(
+           wday <= 5 ~ "Workday",
+           wday == 6 ~ "Saturday",
+           wday == 7 ~ "Sunday",
+         ) %>% 
+           factor(levels = c("Workday", "Saturday", "Sunday")),
+         yday = yday(date)) %>% 
+  ggplot(aes(yday, usage, colour = indicator)) +
+  geom_point(alpha = 0.33, size = 1.5) +
+  labs(y = "Swiss Electricity Consumption",
+       colour = NULL, x = "Day of Year") +
+  scale_colour_manual(values =  c("dodgerblue",
+                                  "darkorchid2",
+                                  "azure3")) +
+  scale_y_continuous(limits = c(100, 210),
+                     labels = scales::comma_format(suffix = " GWh")) +
+  theme(panel.background = element_rect(fill = "black", colour = "black"),
+        plot.background = element_rect(fill = "black", colour = "black"),
+        legend.background = element_rect(fill = "black"),
+        legend.key = element_rect(fill = "black"),
+        legend.text = element_text(colour = "grey50", size = 16),
+        plot.title = element_text(face = "bold", colour = "grey50",
+                                  hjust = 0.5, size = 16),
+        panel.grid.major = element_line(colour = "grey10"),
+        panel.grid.minor = element_line(colour = "grey10"),
+        legend.position = "right",
+        legend.margin = margin(0, 0, 0, 0),
+        plot.margin = margin(5, 0, 5, 0),
+        panel.border = element_blank(),
+        # axis.text.x = element_blank(),
+        axis.text = element_text(colour = "grey50", size = 14),
+        axis.title = element_text(colour = "grey50", size = 14))
+
+ratio = 25.5/6.4
+height = 3.5
+width = height * ratio
+ggsave(filename = "LinkedIn Banner.png", dpi = 300,
+       width = width, height = height)
+
+
+```
+
+```{r, fig.width=8, fig.height=4.95, dpi=300, dev="png", message=FALSE, warning=FALSE}
+electricity %>% 
+  mutate(Zeitpunkt = round_date(Zeitpunkt, unit = "hour")) %>% 
+  group_by(Zeitpunkt) %>% 
+  summarise(kWh = sum(kWh, na.rm = T)) %>% 
+  ungroup() %>%
+  mutate(hour = hour(Zeitpunkt),
+         week = week(Zeitpunkt)) %>% 
+  group_by(hour, week) %>% 
+  summarise(mean_c = median(kWh, na.rm = T)/1e6) %>% 
+  ungroup() %>%
+  ggplot(aes(y = hour + 1, x = week)) +
+  geom_tile(aes(fill = mean_c), width=1, height=1, alpha = 0.9) +
+  labs(title = "Median Swiss Electricity Consumption by Hour in Day and Week in Year",
+       y = NULL,
+       x = NULL,
+       fill = NULL) +
+  scale_x_continuous(expand = c(0, 0), breaks = seq(2, 52, 2)) +
+  scale_y_reverse(expand = c(0, 0)) +
+  guides(fill = guide_colourbar(barwidth = 20, barheight = 0.25)) +
+  scale_fill_gradient(low = "black", high = "dodgerblue",
+                      labels = scales::comma_format(suffix = " GWh")) +
+  theme(panel.background = element_rect(fill = "black"),
+        plot.background = element_rect(fill = "black"),
+        legend.background = element_rect(fill = "black"),
+        legend.key = element_rect(fill = "black"),
+        legend.position = "bottom",
+        legend.text = element_text(colour = "grey50", size = 12),
+        legend.title = element_text(colour = "grey50"),
+        legend.margin = margin(0, 0, 0, 0),
+        plot.title = element_text(face = "bold", colour = "grey50",
+                                  hjust = 0.5, size = 14),
+        plot.subtitle = element_text(colour = "grey50", hjust = 0.5),
+        panel.grid.major = element_line(colour = "grey10"),
+        panel.grid.minor = element_line(colour = "grey10"),
+        plot.margin = margin(10, 10, 10, 10),
+        panel.border = element_blank(),
+        axis.text = element_text(colour = "grey50", size = 14),
+        axis.title = element_text(colour = "grey50", size = 14))
+
+ratio = 25.5/6.4
+height = 3.5
+width = height * ratio
+ggsave(filename = "LinkedIn Banner2.png", dpi = 300,
+       width = width, height = height)
+```
+
+# No text at all, keep just the plot itself
+
+### Total Usage by Weekday vs. Weekend
+
+```{r}
+electricity %>% 
+  group_by(date = date(Zeitpunkt)) %>% 
+  summarise(usage = sum(kWh, na.rm = T) / 1e6) %>% 
+  ungroup() %>% 
+  mutate(wday = wday(date, week_start = 1),
+         indicator = case_when(
+           wday <= 5 ~ "Workday",
+           wday == 6 ~ "Saturday",
+           wday == 7 ~ "Sunday",
+         ) %>% 
+           factor(levels = c("Workday", "Saturday", "Sunday")),
+         yday = yday(date)) %>% 
+  ggplot(aes(yday, usage, colour = indicator)) +
+  geom_point(alpha = 0.33, size = 1.5) +
+  labs(y = NULL, x = NULL,
+       colour = NULL, x = "Day of Year") +
+  scale_colour_manual(values =  c("dodgerblue",
+                                  "darkorchid2",
+                                  "azure3")) +
+  scale_y_continuous(labels = scales::comma_format(suffix = " GWh")) + 
+  coord_cartesian(xlim = c(17, 351), ylim = c(104, 218)) +
+  guides(colour = "none") +
+  theme(panel.background = element_rect(fill = "black", colour = "black"),
+        plot.background = element_rect(fill = "black", colour = "black"),
+        legend.background = element_rect(fill = "black"),
+        legend.key = element_rect(fill = "black"),
+        legend.text = element_text(colour = "grey50", size = 16),
+        plot.title = element_text(face = "bold", colour = "grey50",
+                                  hjust = 0.5, size = 16),
+        panel.grid.major = element_line(colour = "grey10"),
+        panel.grid.minor = element_line(colour = "grey10"),
+        legend.position = "right",
+        legend.margin = margin(0, 0, 0, 0),
+        plot.margin = margin(5, 0, 5, 0),
+        panel.border = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text = element_text(colour = "grey50", size = 14),
+        axis.title = element_text(colour = "grey50", size = 14))
+
+ratio = 25.5/6.4
+height = 3.5
+width = height * ratio
+ggsave(filename = "LinkedIn Banner.png", dpi = 300,
+       width = width, height = height)
+
+
+```
+
+```{r, fig.width=8, fig.height=4.95, dpi=300, dev="png", message=FALSE, warning=FALSE}
+electricity %>% 
+  mutate(Zeitpunkt = round_date(Zeitpunkt, unit = "hour")) %>% 
+  group_by(Zeitpunkt) %>% 
+  summarise(kWh = sum(kWh, na.rm = T)) %>% 
+  ungroup() %>%
+  mutate(hour = hour(Zeitpunkt),
+         week = week(Zeitpunkt)) %>% 
+  group_by(hour, week) %>% 
+  summarise(mean_c = median(kWh, na.rm = T)/1e6) %>% 
+  ungroup() %>%
+  ggplot(aes(y = hour + 1, x = week)) +
+  geom_tile(aes(fill = mean_c), width=1, height=1, alpha = 0.9) +
+  labs(title = NULL,
+       y = NULL,
+       x = NULL,
+       fill = NULL) +
+  scale_x_continuous(expand = c(0, 0), breaks = seq(2, 52, 2)) +
+  scale_y_reverse(expand = c(0, 0)) +
+  guides(fill = "none") +
+  scale_fill_gradient(low = "black", high = "azure",
+                      labels = scales::comma_format(suffix = " GWh")) +
+  theme(panel.background = element_rect(fill = "black"),
+        plot.background = element_rect(fill = "black"),
+        legend.background = element_rect(fill = "black"),
+        legend.key = element_rect(fill = "black"),
+        legend.position = "bottom",
+        legend.text = element_text(colour = "grey50", size = 12),
+        legend.title = element_text(colour = "grey50"),
+        legend.margin = margin(0, 0, 0, 0),
+        plot.title = element_text(face = "bold", colour = "grey50",
+                                  hjust = 0.5, size = 14),
+        plot.subtitle = element_text(colour = "grey50", hjust = 0.5),
+        panel.grid.major = element_line(colour = "grey10"),
+        panel.grid.minor = element_line(colour = "grey10"),
+        plot.margin = margin(10, 10, 10, 10),
+        panel.border = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_text(colour = "grey50", size = 14))
+
+ratio = 25.5/6.4
+height = 3.5
+width = height * ratio
+ggsave(filename = "LinkedIn Banner2.png", dpi = 300,
+       width = width, height = height)
+```
+
+Not only the mean, but also the confidence bands reveal a strong intra-year pattern, which in itself carries another weekly pattern shown in the heat map above. The lows during summer and Christmas holidays are considerable.
+
+&nbsp;
+<hr />
+<p style="text-align: center;">A work by <a href="https://www.linkedin.com/in/mathias-steilen/">Mathias Steilen</a></p>
+&nbsp;

@@ -386,7 +386,7 @@ To be written at the end of 2023...
 
 ***
 
-### Next Week: Coming up...
+### Week 22: TBD
 
 | | Description |
 | :----------- | :----------- |
@@ -398,15 +398,19 @@ To be written at the end of 2023...
 
 ***
 
-### Next Week: Coming up...
+### Week 23: Swiss-End User Electricity Consumption
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
+| **Data Source** | Swissgrid |
+| **Goal** | The goal for this week is very simple: I need a new LinkedIn header, so I just want to make a visually appealing chart without regard for technical details. |
+| **Keywords** | `plotnine`, `ggplot2`  |
+| **Results** | The picture below shows the end-user electricity consumption of Switzerland for each day in the year (1-365) over the past decade with a colourful distinction between workdays, Saturdays and Sundays. But: The only thing that really counts for the banner is the artistic touch. :-) |
 | **Notebooks** | TBD |
+
+<p align="center">
+  <img src="23 - Swiss End User Electricity Consumption/LinkedIn Banner.png" width="500" />
+</p>
 
 ***
 
