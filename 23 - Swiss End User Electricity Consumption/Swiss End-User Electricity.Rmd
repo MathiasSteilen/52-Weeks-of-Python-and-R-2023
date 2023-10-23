@@ -12,21 +12,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-[Return to Homepage](https://mathiassteilen.github.io/)
-
-[Return to Data Visualisation Section](https://mathiassteilen.github.io/dataviz.html)
-
-![](../Graphics/electricity.jpg)
-
-<style>
-body {
-text-align: justify}
-</style>
-
-```{css, echo=FALSE}
-pre, code {white-space:pre !important; overflow-x:auto}
-```
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
@@ -282,6 +267,7 @@ electricity %>%
                                   "darkorchid2",
                                   "azure3")) +
   scale_y_continuous(labels = scales::comma_format(suffix = " GWh")) + 
+  geom_line(stat="smooth", linewidth = 1, alpha = 0.5) +
   coord_cartesian(xlim = c(17, 351), ylim = c(104, 218)) +
   guides(colour = "none") +
   theme(panel.background = element_rect(fill = "black", colour = "black"),

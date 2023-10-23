@@ -427,30 +427,26 @@ To be written at the end of 2023...
 <p align="center">
   <img src="24 - Digitec/article.png" width="500" />
 </p>
-s
-***
 
-### Week 25: Analysing the Smartphone Market in 2023 📲
-
-| | Description |
-| :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
 
 ***
 
-### Next Week: Coming up...
+### Week 42: PubliBike 🚲
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
+| **Data Source** | PubliBike API |
+| **Goal** | The goal for this week was to use the PubliBike API to retrieve information about the position of the shared bicycles at regular intervals and analyse the movement of them in the city. In order to do so, I wrote a script that regularly fetches data and stores it in a csv file. I then ran it for a whole month and analysed the data. |
+| **Keywords** | `API`, `requests`, data wrangling, data visualisation, `plotnine`, `plotly`, `animation`, `spatial data` |
+| **Results** | The final visualisations can be seen below for the cities of Zurich, Bern and Fribourg. They show the distribution of bikes across their stations by time of day. One interesting finding: university students are among the biggest users, and many people rely on these bikes for their daily commute to the train station after work. |
+| **Notebooks** | [Data Miner](), [Analysis]()  |
+
+<p align="center">
+  <img src="42 - Publibike/test_zürich.gif" width="250" />
+  <img src="42 - Publibike/test_bern.gif" width="250" />
+  <img src="42 - Publibike/test_fribourg.gif" width="250" />
+</p>
+
 
 ***
 
@@ -465,13 +461,3 @@ s
 | **Notebooks** | TBD |
 
 ***
-
-### Next Week: Coming up...
-
-| | Description |
-| :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
-| **Notebooks** | TBD |
