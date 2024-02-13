@@ -394,7 +394,7 @@ To be written at the end of 2023...
 | **Goal** | The goal of this analysis is to understand pedestrian traffic patterns along Zurich's Bahnhofstrasse. I aim to examine various factors influencing pedestrian behavior, such as weather conditions, time of day, day of the week, and even seasonal variations like the Christmas season. By aggregating and analyzing pedestrian counts from open data sources, I seek insights into how external factors impact pedestrian flow. |
 | **Keywords** | Pedestrian frequency, Zurich, Bahnhofstrasse, Urban analysis, Traffic patterns, Data visualization, `plotnine`, `pandas` |
 | **Results** | Clearly, pedestrian traffic is driven by two main factors: Commuters and shoppers. Commuters make up the bigger part and are invariant to bad weather. The traffic throughout the week is relatively constant, with higher levels on a Friday. As shops are closed on Sundays, the street experiences less than half of traffic compared to regular days. Saturdays are most crowded due to shoppers. Additionally, shops stay open longer and the street remains crowded for longer into the evening on Saturdays. |
-| **Notebooks** | TBD |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/22%20-%20Bahnhofstrasse%20Pedestrians/pedestrians.ipynb) |
 
 <p align="center">
   <img src="22 - Bahnhofstrasse Pedestrians/boxplot.png" width="500" />
@@ -427,7 +427,7 @@ To be written at the end of 2023...
 | **Goal** | The goal of this week is to systematically collect smartphone specifications and historical prices from the website of the biggest tech retailer in Switzerland. I want to have a comprehensive dataset that can be used for market analysis, product comparisons, or any other insights related to current smartphone offerings in 2023. Especially the historic chart on the website (shown below) is interesting to me, because I want to analyse fluctuations in the prices and depreciation patterns of various smartphone providers. |
 | **Keywords** | Web Scraping, `Selenium`, `Pandas`, Chrome WebDriver, `JSON` Parsing, Randomized Delays, `HTTP` |
 | **Results** | The final notebook gets all devices in the smartphone category and extracts details like specifications and price history. The end result is a set of CSV files on price history and specifications of 1887 smartphones with over 100 variables, which will be analysed another week. |
-| **Notebooks** | [Python]() |
+| **Notebooks** | [Python](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/24%20-%20Digitec/Price%20Scraping.ipynb) |
 
 <p align="center">
   <img src="24 - Digitec/article.png" width="500" />
@@ -443,7 +443,7 @@ To be written at the end of 2023...
 | **Goal** | The goal for this week was to use the PubliBike API to retrieve information about the position of the shared bicycles at regular intervals and analyse the movement of them in the city. In order to do so, I wrote a script that regularly fetches data and stores it in a csv file. I then ran it for a whole month and analysed the data. |
 | **Keywords** | `API`, `requests`, data wrangling, data visualisation, `plotnine`, `plotly`, `animation`, `spatial data` |
 | **Results** | The final visualisations can be seen below for the cities of Zurich, Bern and Fribourg. They show the distribution of bikes across their stations by time of day. One interesting finding: university students are among the biggest users, and many people rely on these bikes for their daily commute to the train station after work. |
-| **Notebooks** | [Data Miner](), [Analysis]()  |
+| **Notebooks** | [Data Miner](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/25%20-%20Publibike/miner.py), [Visualisations](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/25%20-%20Publibike/publibike.ipynb)  |
 
 <p align="center">
   <img src="25 - Publibike/test_zürich.gif" width="250" />
@@ -460,7 +460,7 @@ To be written at the end of 2023...
 | **Data Source** | SwissGrid |
 | **Keywords** | Hackathon, `Python`, `Optuna`, `elastic net`, time series |
 | **Results** | I participated in Swissgrid's challenge of predicting day-ahead active losses in the transmission grid at the Energy Data Hackdays 2023 and managed to win the challenge out of 20 participants together with my colleague with an Elastic Net model finetuned with Optuna in Python. |
-| **Notebooks** | TBD |
+| **Notebooks** | [Best Model](https://github.com/MathiasSteilen/52-Weeks-of-Python-and-R-2023/blob/main/26%20-%20Swissgrid%20Time%20Series%20Optuna/1_ElasticNet.ipynb) |
 
 <p align="center">
   <img src="26 - Swissgrid Time Series Optuna/Split.png" width="500" />
