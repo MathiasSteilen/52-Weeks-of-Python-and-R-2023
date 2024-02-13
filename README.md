@@ -393,7 +393,7 @@ To be written at the end of 2023...
 | **Data Source** | [Open Data Swiss](https://opendata.swiss/de/dataset?q=fussg%C3%A4nger) |
 | **Goal** | The goal of this analysis is to understand pedestrian traffic patterns along Zurich's Bahnhofstrasse. I aim to examine various factors influencing pedestrian behavior, such as weather conditions, time of day, day of the week, and even seasonal variations like the Christmas season. By aggregating and analyzing pedestrian counts from open data sources, I seek insights into how external factors impact pedestrian flow. |
 | **Keywords** | Pedestrian frequency, Zurich, Bahnhofstrasse, Urban analysis, Traffic patterns, Data visualization, `plotnine`, `pandas` |
-| **Results** | Clearly, pedestrian traffic is driven by two main factors: Commuters and shoppers. Commuters make up the bigger part and are invariant to bad weather. The traffic throughout the week is relatively constant, with higher levels on a Friday. As shops are closed on Sundays, the street experiences less than half of traffic compared to regular days. Saturdays are most crowded due to shoppers. |
+| **Results** | Clearly, pedestrian traffic is driven by two main factors: Commuters and shoppers. Commuters make up the bigger part and are invariant to bad weather. The traffic throughout the week is relatively constant, with higher levels on a Friday. As shops are closed on Sundays, the street experiences less than half of traffic compared to regular days. Saturdays are most crowded due to shoppers. Additionally, shops stay open longer and the street remains crowded for longer into the evening on Saturdays. |
 | **Notebooks** | TBD |
 
 <p align="center">
@@ -433,10 +433,9 @@ To be written at the end of 2023...
   <img src="24 - Digitec/article.png" width="500" />
 </p>
 
-
 ***
 
-### Week 42: PubliBike 🚲
+### Week 25: PubliBike Visualisations 🚲
 
 | | Description |
 | :----------- | :----------- |
@@ -447,22 +446,24 @@ To be written at the end of 2023...
 | **Notebooks** | [Data Miner](), [Analysis]()  |
 
 <p align="center">
-  <img src="42 - Publibike/test_zürich.gif" width="250" />
-  <img src="42 - Publibike/test_bern.gif" width="250" />
-  <img src="42 - Publibike/test_fribourg.gif" width="250" />
+  <img src="25 - Publibike/test_zürich.gif" width="250" />
+  <img src="25 - Publibike/test_bern.gif" width="250" />
+  <img src="25 - Publibike/test_fribourg.gif" width="250" />
 </p>
-
 
 ***
 
-### Next Week: Coming up...
+### Week 26: Predicting Day-Ahead Active Losses in the Transmission Grid ⚡
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
+| **Data Source** | SwissGrid |
+| **Keywords** | Hackathon, `Python`, `Optuna`, `elastic net`, time series |
+| **Results** | I participated in Swissgrid's challenge of predicting day-ahead active losses in the transmission grid at the Energy Data Hackdays 2023 and managed to win the challenge out of 20 participants together with my colleague with an Elastic Net model finetuned with Optuna in Python. |
 | **Notebooks** | TBD |
+
+<p align="center">
+  <img src="26 - Swissgrid Time Series Optuna/Split.png" width="500" />
+</p>
 
 ***
