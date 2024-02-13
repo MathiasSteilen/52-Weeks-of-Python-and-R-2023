@@ -386,15 +386,20 @@ To be written at the end of 2023...
 
 ***
 
-### Week 22: TBD
+### Week 22: Pedestrians in Bahnhofstrasse Zurich 🚶🚶‍♀️
 
 | | Description |
 | :----------- | :----------- |
-| **Data Source** | TBD |
-| **Goal** | TBD |
-| **Keywords** | TBD |
-| **Results** | TBD |
+| **Data Source** | [Open Data Swiss](https://opendata.swiss/de/dataset?q=fussg%C3%A4nger) |
+| **Goal** | The goal of this analysis is to understand pedestrian traffic patterns along Zurich's Bahnhofstrasse. I aim to examine various factors influencing pedestrian behavior, such as weather conditions, time of day, day of the week, and even seasonal variations like the Christmas season. By aggregating and analyzing pedestrian counts from open data sources, I seek insights into how external factors impact pedestrian flow. |
+| **Keywords** | Pedestrian frequency, Zurich, Bahnhofstrasse, Urban analysis, Traffic patterns, Data visualization, `plotnine`, `pandas` |
+| **Results** | Clearly, pedestrian traffic is driven by two main factors: Commuters and shoppers. Commuters make up the bigger part and are invariant to bad weather. The traffic throughout the week is relatively constant, with higher levels on a Friday. As shops are closed on Sundays, the street experiences less than half of traffic compared to regular days. Saturdays are most crowded due to shoppers. |
 | **Notebooks** | TBD |
+
+<p align="center">
+  <img src="22 - Bahnhofstrasse Pedestrians/boxplot.png" width="500" />
+  <img src="22 - Bahnhofstrasse Pedestrians/heatmap.png" width="500" />
+</p>
 
 ***
 
