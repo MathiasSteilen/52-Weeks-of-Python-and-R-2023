@@ -2,7 +2,7 @@
 
 This repo holds the contents of the challenge I set myself for 2023:
 
-> **Finish one machine learning, data wrangling or data viz project each week of 2023 in both Python and R.**
+> **Finish one machine learning, data wrangling or data viz project every other week of 2023 in both Python and R.**
 
 Given that both languages are complements nowadays, with R being strongest for data wrangling and visualisation and Python being the predominant language for machine learning, I believe that this challenge will be incredibly useful to gain hands-on experience.
 
