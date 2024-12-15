@@ -61,7 +61,7 @@ elec <- electricity %>%
 elec %>%
   mutate(kWh = kWh/1000000) %>% 
   ggplot(aes(x = month_in_year, y = kWh, color = as.factor(year))) +
-  geom_line(size = 0.7) +
+  geom_line(linewidth = 0.7) +
   labs(title = "The effect of the COVID-19 pandemic on total energy consumption in Switzerland",
        subtitle = "End user electricity consumption in the Swiss controlblock by month (in millions of kWh)",
        x = "Calendar Month Number",
@@ -69,7 +69,7 @@ elec %>%
   theme_minimal() +
   theme(plot.title = element_text(size = 12, face="bold", colour="black"),
         plot.subtitle = element_text(face = "italic", colour = "gray50",
-                                   size = 10),
+                                     size = 10),
         legend.title = element_blank(),
         panel.grid.minor.x = element_blank(),
         panel.grid.minor.y = element_blank(),
@@ -197,26 +197,27 @@ ggsave(filename = "LinkedIn Banner.png", dpi = 300,
 
 ```{r, fig.width=8, fig.height=4.95, dpi=300, dev="png", message=FALSE, warning=FALSE}
 electricity %>% 
-  mutate(Zeitpunkt = round_date(Zeitpunkt, unit = "hour")) %>% 
+  mutate(Zeitpunkt = round_date(Zeitpunkt, unit = "hour")) |> 
   group_by(Zeitpunkt) %>% 
   summarise(kWh = sum(kWh, na.rm = T)) %>% 
-  ungroup() %>%
+  ungroup() |> 
   mutate(hour = hour(Zeitpunkt),
          week = week(Zeitpunkt)) %>% 
   group_by(hour, week) %>% 
-  summarise(mean_c = median(kWh, na.rm = T)/1e6) %>% 
-  ungroup() %>%
+  summarise(GWh = median(kWh, na.rm = T)/1e6) %>% 
+  ungroup() |> 
   ggplot(aes(y = hour + 1, x = week)) +
-  geom_tile(aes(fill = mean_c), width=1, height=1, alpha = 0.9) +
+  geom_tile(aes(fill = GWh), width=1, height=1, alpha = 0.9) +
   labs(title = "Median Swiss Electricity Consumption by Hour in Day and Week in Year",
        y = NULL,
        x = NULL,
-       fill = NULL) +
+       fill = "GWh") +
   scale_x_continuous(expand = c(0, 0), breaks = seq(2, 52, 2)) +
   scale_y_reverse(expand = c(0, 0)) +
   guides(fill = guide_colourbar(barwidth = 20, barheight = 0.25)) +
-  scale_fill_gradient(low = "black", high = "dodgerblue",
-                      labels = scales::comma_format(suffix = " GWh")) +
+  # scale_fill_gradient(low = "black", high = "dodgerblue",
+  #                     labels = scales::comma_format(suffix = " GWh")) +
+  scale_fill_viridis_c(option = "inferno") +
   theme(panel.background = element_rect(fill = "black"),
         plot.background = element_rect(fill = "black"),
         legend.background = element_rect(fill = "black"),
@@ -260,7 +261,8 @@ electricity %>%
            factor(levels = c("Workday", "Saturday", "Sunday")),
          yday = yday(date)) %>% 
   ggplot(aes(yday, usage, colour = indicator)) +
-  geom_point(alpha = 0.33, size = 1.5) +
+  # geom_point(alpha = 0.33, size = 1.5) +
+  geom_point(alpha = 0.66, size = 1.5) +
   labs(y = NULL, x = NULL,
        colour = NULL, x = "Day of Year") +
   scale_colour_manual(values =  c("dodgerblue",
@@ -297,45 +299,51 @@ ggsave(filename = "LinkedIn Banner.png", dpi = 300,
 
 ```
 
+
 ```{r, fig.width=8, fig.height=4.95, dpi=300, dev="png", message=FALSE, warning=FALSE}
 electricity %>% 
-  mutate(Zeitpunkt = round_date(Zeitpunkt, unit = "hour")) %>% 
+  mutate(Zeitpunkt = round_date(Zeitpunkt, unit = "hour")) |> 
   group_by(Zeitpunkt) %>% 
   summarise(kWh = sum(kWh, na.rm = T)) %>% 
-  ungroup() %>%
+  ungroup() |> 
   mutate(hour = hour(Zeitpunkt),
          week = week(Zeitpunkt)) %>% 
   group_by(hour, week) %>% 
-  summarise(mean_c = median(kWh, na.rm = T)/1e6) %>% 
-  ungroup() %>%
+  summarise(GWh = median(kWh, na.rm = T)/1e6) %>% 
+  ungroup() |> 
   ggplot(aes(y = hour + 1, x = week)) +
-  geom_tile(aes(fill = mean_c), width=1, height=1, alpha = 0.9) +
-  labs(title = NULL,
-       y = NULL,
-       x = NULL,
-       fill = NULL) +
+  geom_tile(aes(fill = GWh), width = 1, height = 1, alpha = 1, colour = NA) +
+  labs(
+    # title = "Median Hourly Electricity Consumption",
+    y = "Hour of Day",
+    x = "Week in Year",
+    fill = "Median GWh"
+  ) +
   scale_x_continuous(expand = c(0, 0), breaks = seq(2, 52, 2)) +
-  scale_y_reverse(expand = c(0, 0)) +
-  guides(fill = "none") +
-  scale_fill_gradient(low = "black", high = "azure",
-                      labels = scales::comma_format(suffix = " GWh")) +
-  theme(panel.background = element_rect(fill = "black"),
-        plot.background = element_rect(fill = "black"),
-        legend.background = element_rect(fill = "black"),
-        legend.key = element_rect(fill = "black"),
-        legend.position = "bottom",
-        legend.text = element_text(colour = "grey50", size = 12),
-        legend.title = element_text(colour = "grey50"),
-        legend.margin = margin(0, 0, 0, 0),
-        plot.title = element_text(face = "bold", colour = "grey50",
-                                  hjust = 0.5, size = 14),
-        plot.subtitle = element_text(colour = "grey50", hjust = 0.5),
-        panel.grid.major = element_line(colour = "grey10"),
-        panel.grid.minor = element_line(colour = "grey10"),
-        plot.margin = margin(10, 10, 10, 10),
-        panel.border = element_blank(),
-        axis.text = element_blank(),
-        axis.title = element_text(colour = "grey50", size = 14))
+  scale_y_reverse(expand = c(0, 0), breaks = seq(2, 24, 2)) +
+  guides(fill = guide_colourbar(barwidth = 10, barheight = 0.25)) +
+  # scale_fill_gradient(low = "black", high = "dodgerblue",
+  #                     labels = scales::comma_format(suffix = " GWh")) +
+  scale_fill_viridis_c(option = "inferno") +
+  theme(
+    panel.background = element_rect(fill = "black", colour="black"),
+    plot.background = element_rect(fill = "black", colour="black"),
+    legend.background = element_rect(fill = "black"),
+    legend.key = element_rect(fill = "black"),
+    legend.position = "bottom",
+    legend.text = element_text(colour = "grey50", size = 12),
+    legend.title = element_text(colour = "grey50"),
+    legend.margin = margin(0, 0, 0, 0),
+    plot.title = element_text(face = "bold", colour = "grey50",
+                              hjust = 0.5, size = 20),
+    plot.subtitle = element_text(colour = "grey50", hjust = 0.5),
+    panel.grid.major = element_line(colour = "grey10"),
+    panel.grid.minor = element_line(colour = "grey10"),
+    plot.margin = margin(10, 10, 10, 10),
+    panel.border = element_blank(),
+    # axis.text = element_blank(),
+    axis.title = element_text(colour = "grey50", size = 12)
+  )
 
 ratio = 25.5/6.4
 height = 3.5
